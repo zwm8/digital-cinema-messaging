@@ -1,0 +1,5 @@
+E:\Source_W3\www.w3.org\xmldsig\obj\Debug\ResolveAssemblyReference.cache
+E:\Source_W3\www.w3.org\xmldsig\bin\Debug\w3.xmldsig.dll
+E:\Source_W3\www.w3.org\xmldsig\bin\Debug\w3.xmldsig.pdb
+E:\Source_W3\www.w3.org\xmldsig\obj\Debug\w3.xmldsig.dll
+E:\Source_W3\www.w3.org\xmldsig\obj\Debug\w3.xmldsig.pdb
