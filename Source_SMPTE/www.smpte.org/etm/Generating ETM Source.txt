@@ -1,0 +1,5 @@
+﻿The SVCUTIL does not create correct all elements!
+
+svcutil ExtraTheatreMessage.xsd /dconly /importXmlTypes  /out:ExtraTheatreMessage_svcutil.cs
+
+xsd ExtraTheatreMessage.xsd /c /order /n:www.smpte.org.etm

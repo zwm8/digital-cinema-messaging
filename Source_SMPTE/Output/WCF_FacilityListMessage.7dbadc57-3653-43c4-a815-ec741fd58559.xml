@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DCinemaSecurityMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.smpte-ra.org/schemas/430-3/2006/ETM">
+  <AuthenticatedPublic Id="AuthenticatedPublic.Id.ac2acdd4-2dcf-4204-a936-f0d6fafaa282">
+    <MessageId>urn:uuid:7dbadc57-3653-43c4-a815-ec741fd58559</MessageId>
+    <MessageType>http://www.smpte-ra.org/schemas/430-7/2008/FLM</MessageType>
+    <AnnotationText language="en-us">Test Facility List Message</AnnotationText>
+    <IssueDate>2009-09-17T12:11:41.4257296-05:00</IssueDate>
+    <Signer>
+      <IssuerName>CN=DigiCert Global CA, OU=www.digicert.com, O=DigiCert Inc, C=US</IssuerName>
+      <SerialNumber>0EFB7EEBDCDA4F64A718DB3FF908B085</SerialNumber>
+    </Signer>
+    <RequiredExtensions>
+      <FLMRequiredExtensions xmlns="http://www.smpte-ra.org/schemas/430-7/2008/FLM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <FacilityInfo>
+          <AnnotationText language="en-us">Example Facility List Message</AnnotationText>
+          <FacilityName>urn:x-facilityID:dcipllc.com:000000</FacilityName>
+          <UTCOffset>
+            <Offset>-05:00</Offset>
+          </UTCOffset>
+        </FacilityInfo>
+        <SecurityDeviceList>
+          <SecurityDevice>
+            <KeyInfo>
+              <KeyName xmlns="http://www.w3.org/2000/09/xmldsig#">CN=DigiCert Global CA, OU=www.digicert.com, O=DigiCert Inc, C=US</KeyName>
+              <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Certificate>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</X509Certificate>
+              </X509Data>
+            </KeyInfo>
+            <DeviceDescription>
+              <DeviceIdentifier idtype="DeviceUID" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">urn:uid:00000000-0000-0000-0000-000000000000</DeviceIdentifier>
+              <DeviceTypeID scope="http://www.dcipllc.com/schemas/430-7/2009/FLM#deviceTypes" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">SMS</DeviceTypeID>
+              <DeviceSerial xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">000000</DeviceSerial>
+              <ManufacturerName xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Doremi</ManufacturerName>
+              <ModelNumber xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">DCP0000</ModelNumber>
+              <DeviceComment xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Not a Real Device</DeviceComment>
+            </DeviceDescription>
+          </SecurityDevice>
+        </SecurityDeviceList>
+      </FLMRequiredExtensions>
+    </RequiredExtensions>
+    <NonCriticalExtensions>
+      <FLMNonCriticalExtensions xmlns="http://www.dcip.com/schemas/430-7/2009/flm_ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <DeviceList>
+          <Device>
+            <DeviceDescription>
+              <DeviceIdentifier idtype="DeviceUID" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">urn:uid:8d6421e3-31a7-4dd7-b862-e1ca915827ad</DeviceIdentifier>
+              <DeviceTypeID scope="http://www.dcipllc.com/schemas/430-7/2009/FLM#deviceTypes" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">SMS</DeviceTypeID>
+              <DeviceSerial xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">000000</DeviceSerial>
+              <ManufacturerName xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Doremi</ManufacturerName>
+              <ModelNumber xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">DCP0000</ModelNumber>
+              <DeviceComment xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Not a Real Device</DeviceComment>
+            </DeviceDescription>
+            <DeviceAttributeList>
+              <DeviceAttribute>
+                <Name>Ghostbusting</Name>
+                <Value>Installed</Value>
+              </DeviceAttribute>
+              <DeviceAttribute>
+                <Name>Storage</Name>
+                <Value>2TB</Value>
+              </DeviceAttribute>
+            </DeviceAttributeList>
+            <IPAddressList>
+              <IPAddress>
+                <Address>127.0.0.1</Address>
+                <Host>localhost</Host>
+              </IPAddress>
+              <IPAddress>
+                <Address>192.168.1.1</Address>
+                <Host>private.IPv4.network</Host>
+              </IPAddress>
+            </IPAddressList>
+            <InstallDate>2009-09-17T12:11:41.8867757-05:00</InstallDate>
+            <DecommissionDate>2009-09-17T12:11:41.8877758-05:00</DecommissionDate>
+            <IsActive>true</IsActive>
+            <SoftwareList>
+              <Software>
+                <SoftwareProducer>Doremi</SoftwareProducer>
+                <Description>Playback Engine</Description>
+                <Version>0.0.1</Version>
+                <FileName>playback.dll</FileName>
+              </Software>
+              <Software>
+                <SoftwareProducer>Doremi</SoftwareProducer>
+                <Description>Security Log Generator</Description>
+                <Version>0.0.1</Version>
+                <FileName>securitylog.dll</FileName>
+              </Software>
+            </SoftwareList>
+            <OtherSecurity>
+              <WatermarkingList>
+                <Watermarking>
+                  <WatermarkManufacturer>Thompson</WatermarkManufacturer>
+                  <WatermarkModel>SMS</WatermarkModel>
+                  <WatermarkVersion>0.0.1</WatermarkVersion>
+                </Watermarking>
+              </WatermarkingList>
+              <CertificateList>
+                <Certificate>
+                  <CertificateClass>Signature</CertificateClass>
+                  <X509Certificate>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</X509Certificate>
+                </Certificate>
+              </CertificateList>
+            </OtherSecurity>
+          </Device>
+          <Device>
+            <DeviceDescription>
+              <DeviceIdentifier idtype="DeviceUID" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">urn:uid:f26ffc28-b93c-4a7c-b22e-9ee0747d84b2</DeviceIdentifier>
+              <DeviceTypeID scope="http://www.dcipllc.com/schemas/430-7/2009/FLM#deviceTypes" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">TMS</DeviceTypeID>
+              <DeviceSerial xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">000001</DeviceSerial>
+              <ManufacturerName xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Doremi</ManufacturerName>
+              <ModelNumber xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">DCP0001</ModelNumber>
+              <DeviceComment xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Not a Real Device</DeviceComment>
+            </DeviceDescription>
+            <IPAddressList>
+              <IPAddress>
+                <Address>127.0.0.1</Address>
+                <Host>localhost</Host>
+              </IPAddress>
+              <IPAddress>
+                <Address>192.168.1.2</Address>
+                <Host>private.IPv4.network</Host>
+              </IPAddress>
+            </IPAddressList>
+            <InstallDate>2009-09-17T12:11:41.8927763-05:00</InstallDate>
+            <IsActive>true</IsActive>
+            <OtherSecurity>
+              <CertificateList>
+                <Certificate>
+                  <CertificateClass>PublicKey</CertificateClass>
+                  <X509Certificate>MIIBCgKCAQEAzDpk6YOsoch/5N0jntTFPzJOoJa5V5gPSAcsSgRgWFOACYidpV87Hgw3r3RnL6SynfG4KYExUWd1TS6MMf0e+/s9bLmdAS/sEEuiE5rc9HAUtS7Hl8HzEujPpYe1PbecUkItLFR7ORk+UYhTerVUiWcKg7gjt5uirD1QECn9Z6xHOMu/dbWhl31QOLelQnKkmBDeyBDACkYAMcZRnoM9XPpaXK2koDvboCKxzEELSkIRR4Ag3YAjyiHJ4+98HmPDwKmBDGv5v8DH1n1J5pdhxmsRBwXtZE17mPikR367U2tXY/olVdGE6oGKDRVKo42S/OzQ2RdqE4IXSNSRsOZrYQIDAQAB</X509Certificate>
+                </Certificate>
+              </CertificateList>
+            </OtherSecurity>
+          </Device>
+        </DeviceList>
+        <NonCriticalFacilityInfo>
+          <Circuit>anyCircuit</Circuit>
+          <DistributionCapabilitiyList>
+            <Capability>
+              <Method>Satellite</Method>
+              <Detail>Dish on Roof</Detail>
+              <Provider>SatService</Provider>
+            </Capability>
+            <Capability>
+              <Method>Internet</Method>
+              <Detail>T1</Detail>
+              <Provider>InternetService</Provider>
+            </Capability>
+          </DistributionCapabilitiyList>
+          <FacilityName>AnyFacility</FacilityName>
+          <AddressList>
+            <Address>
+              <AddressClass>PHYSICAL</AddressClass>
+              <StreetAddress>111 Main Street</StreetAddress>
+              <City>Any City</City>
+              <State>Any State</State>
+              <PostalCode>Any Postal Code</PostalCode>
+              <Country>Any Country</Country>
+            </Address>
+            <Address>
+              <AddressClass>SHIPPING</AddressClass>
+              <StreetAddress>112 Main Street</StreetAddress>
+              <City>Any City</City>
+              <State>Any State</State>
+              <PostalCode>Any Postal Code</PostalCode>
+              <Country>Any Country</Country>
+            </Address>
+          </AddressList>
+          <FacilityUriList>
+            <FacilityUri>urn:x-facilityID:dcipllc.com:256</FacilityUri>
+          </FacilityUriList>
+          <FacilityDeviceList>
+            <DeviceIdentifier idtype="DeviceUID">urn:uid:f26ffc28-b93c-4a7c-b22e-9ee0747d84b2</DeviceIdentifier>
+          </FacilityDeviceList>
+          <FacilityAttributeList>
+            <FacilityAttribute>
+              <Name>Elevator</Name>
+              <Value>4' x 6' x 10' Tall</Value>
+            </FacilityAttribute>
+            <FacilityAttribute>
+              <Name>Loading Dock</Name>
+              <Value>North Side</Value>
+            </FacilityAttribute>
+          </FacilityAttributeList>
+          <FacilityTimeZone>CST</FacilityTimeZone>
+        </NonCriticalFacilityInfo>
+        <NonCriticalAuditoriumInfo>
+          <Auditorium>
+            <AuditoriumNumber>1</AuditoriumNumber>
+            <AuditoriumDeviceList>
+              <DeviceIdentifier idtype="DeviceUID">urn:uid:8d6421e3-31a7-4dd7-b862-e1ca915827ad</DeviceIdentifier>
+            </AuditoriumDeviceList>
+            <Digital3DSystem>
+              <IsActive>false</IsActive>
+              <Digital3DConfiguration>RealD</Digital3DConfiguration>
+              <InstallDate>2009-09-17T12:11:41.9027773-05:00</InstallDate>
+              <DecommissionDate>2009-09-17T12:11:41.9027773-05:00</DecommissionDate>
+              <ScreenColor>WHITE</ScreenColor>
+              <Ghostbusting>true</Ghostbusting>
+              <GhostbustingConfiguration>In Server</GhostbustingConfiguration>
+            </Digital3DSystem>
+            <ServiceProvider>DCIP</ServiceProvider>
+            <InstallationId>9de48d20-d4cf-4532-b1ac-571c7c23751c</InstallationId>
+            <AuditoriumAttributeList>
+              <AuditoriumAttribute>
+                <Name>Masking</Name>
+                <Value>Side</Value>
+              </AuditoriumAttribute>
+              <AuditoriumAttribute>
+                <Name>Audio</Name>
+                <Value>Dolby 5.1</Value>
+              </AuditoriumAttribute>
+            </AuditoriumAttributeList>
+            <AuditoriumInstallationDate>2009-09-17T17:11:41.9047775Z</AuditoriumInstallationDate>
+            <Integrator>DCIP</Integrator>
+          </Auditorium>
+        </NonCriticalAuditoriumInfo>
+      </FLMNonCriticalExtensions>
+    </NonCriticalExtensions>
+  </AuthenticatedPublic>
+  <AuthenticatedPrivate Id="AuthenticatedPrivate.Id.963ee87f-2157-4593-87a1-6d8e6e26fbc8" />
+  <Signature>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#AuthenticatedPublic">
+          <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+          <DigestValue>pRbrT1rQjsmrpEul9wyjv5ooNEctD+imFTf4OdtwrNk=</DigestValue>
+        </Reference>
+        <Reference URI="#AuthenticatedPrivate">
+          <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+          <DigestValue>tfy8o2XV1RgwOZuxyWPZg1KgUqvdjpx56Pfo93FWTUw=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>hj+zIw7KKM9pVRznaDZqieAoN7l8Rb3vtQMRMnjIvclwB81OtshkzEtUsfIc6hlorgV6JkP3HGvfVBYdPUaW3vxwl+vWXt4ArDHeG5Cbo4nlFQc0wyzyBc6GB9TH2m8qNqG5q44rMkRiSGrOWjZqgr3qRiMMwF0g8dd2CHl/UlLGCHDCscwzlcSKnuv1UClOwRRuonHWEdSulqxAf+Vusqqes82JVHdTAO3zd2r3Slu/ZYOZBtrcJadGVDuDEU+jX4n3x7ydVx+M+EcyvwHNO11uU2teVb1aNlQe5ApHkdusyhrYJ1hW7RixckIPK3PayU2ywsTxQmoY8KTvjOLaCw==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>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</X509Certificate>
+          <X509Certificate>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</X509Certificate>
+          <X509Certificate>MIIE2DCCBEGgAwIBAgIEN0rSQzANBgkqhkiG9w0BAQUFADCBwzELMAkGA1UEBhMCVVMxFDASBgNVBAoTC0VudHJ1c3QubmV0MTswOQYDVQQLEzJ3d3cuZW50cnVzdC5uZXQvQ1BTIGluY29ycC4gYnkgcmVmLiAobGltaXRzIGxpYWIuKTElMCMGA1UECxMcKGMpIDE5OTkgRW50cnVzdC5uZXQgTGltaXRlZDE6MDgGA1UEAxMxRW50cnVzdC5uZXQgU2VjdXJlIFNlcnZlciBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTAeFw05OTA1MjUxNjA5NDBaFw0xOTA1MjUxNjM5NDBaMIHDMQswCQYDVQQGEwJVUzEUMBIGA1UEChMLRW50cnVzdC5uZXQxOzA5BgNVBAsTMnd3dy5lbnRydXN0Lm5ldC9DUFMgaW5jb3JwLiBieSByZWYuIChsaW1pdHMgbGlhYi4pMSUwIwYDVQQLExwoYykgMTk5OSBFbnRydXN0Lm5ldCBMaW1pdGVkMTowOAYDVQQDEzFFbnRydXN0Lm5ldCBTZWN1cmUgU2VydmVyIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MIGdMA0GCSqGSIb3DQEBAQUAA4GLADCBhwKBgQDNKIM0VBuJ8w+vN5Ex/68xYMmo6LIQaO2f55M28Qpku0f1BBc/I0dNxScZgSYMVHINiC3ZH5oSn7yzcdOAGT9HZnuMNSjSuQrfJNqc1lB5gXpa0zf3wkrYKZImZNHkmGw6AIr1NJtl+O3jEP/9uElY3KDegjlrgbEWGWG5VLbmQwIBA6OCAdcwggHTMBEGCWCGSAGG+EIBAQQEAwIABzCCARkGA1UdHwSCARAwggEMMIHeoIHboIHYpIHVMIHSMQswCQYDVQQGEwJVUzEUMBIGA1UEChMLRW50cnVzdC5uZXQxOzA5BgNVBAsTMnd3dy5lbnRydXN0Lm5ldC9DUFMgaW5jb3JwLiBieSByZWYuIChsaW1pdHMgbGlhYi4pMSUwIwYDVQQLExwoYykgMTk5OSBFbnRydXN0Lm5ldCBMaW1pdGVkMTowOAYDVQQDEzFFbnRydXN0Lm5ldCBTZWN1cmUgU2VydmVyIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MQ0wCwYDVQQDEwRDUkwxMCmgJ6AlhiNodHRwOi8vd3d3LmVudHJ1c3QubmV0L0NSTC9uZXQxLmNybDArBgNVHRAEJDAigA8xOTk5MDUyNTE2MDk0MFqBDzIwMTkwNTI1MTYwOTQwWjALBgNVHQ8EBAMCAQYwHwYDVR0jBBgwFoAU8BdiE1U9s/8KAGv7UISX8+1i0BowHQYDVR0OBBYEFPAXYhNVPbP/CgBr+1CEl/PtYtAaMAwGA1UdEwQFMAMBAf8wGQYJKoZIhvZ9B0EABAwwChsEVjQuMAMCBJAwDQYJKoZIhvcNAQEFBQADgYEAkNwwAvpkdMKnCqV8IY00F6j7Rw7/JXyNEwr75Ji174z4xRAN95K+8cPV1ZVqBLssziY2ZcgxxufuP+NXdYR6Ee9GTxj005i7qIcyunL2POI9n9cd2cNgQ4xYDiKWL2KjLB+6rQXvqzJ4h6BUcxm1XAX5Uj5tLUUL9wqT6u0G+bI=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </Signature>
+</DCinemaSecurityMessage>

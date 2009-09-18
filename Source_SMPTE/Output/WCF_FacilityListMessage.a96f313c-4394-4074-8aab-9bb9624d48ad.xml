@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DCinemaSecurityMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.smpte-ra.org/schemas/430-3/2006/ETM">
+  <AuthenticatedPublic Id="AuthenticatedPublic.Id.f8e04a3e-d8cc-44cc-8afc-b2f6d8c9ba3c">
+    <MessageId>urn:uuid:a96f313c-4394-4074-8aab-9bb9624d48ad</MessageId>
+    <MessageType>http://www.smpte-ra.org/schemas/430-7/2008/FLM</MessageType>
+    <AnnotationText language="en-us">Test Facility List Message</AnnotationText>
+    <IssueDate>2009-09-14T09:56:36.9490864-05:00</IssueDate>
+    <Signer>
+      <IssuerName>CN=WMSvc-SEMBERLEY</IssuerName>
+      <SerialNumber>23B0B092F414B89745B443F2B3700039</SerialNumber>
+    </Signer>
+    <RequiredExtensions>
+      <FLMRequiredExtensions xmlns="http://www.smpte-ra.org/schemas/430-7/2008/FLM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <FacilityInfo>
+          <AnnotationText language="en-us">Example Facility List Message</AnnotationText>
+          <FacilityName>urn:x-facilityID:dcipllc.com:000000</FacilityName>
+          <UTCOffset>
+            <Offset>-05:00</Offset>
+          </UTCOffset>
+        </FacilityInfo>
+        <SecurityDeviceList>
+          <SecurityDevice>
+            <KeyInfo>
+              <KeyName xmlns="http://www.w3.org/2000/09/xmldsig#">CN=WMSvc-SEMBERLEY</KeyName>
+              <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Certificate>MIIC5TCCAc2gAwIBAgIQI7CwkvQUuJdFtEPys3AAOTANBgkqhkiG9w0BAQUFADAaMRgwFgYDVQQDEw9XTVN2Yy1TRU1CRVJMRVkwHhcNMDkwOTA4MjEzMDI5WhcNMTkwOTA2MjEzMDI5WjAaMRgwFgYDVQQDEw9XTVN2Yy1TRU1CRVJMRVkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCek8J7NaLbfyyDlTudetb0/LmxHsqus7b6iPzENKZ95t2/CGPCDxwBpyudEQvVCvnyj3qrLkNstqQUHFpppPTUOx5hj1aImx8RcWe6V8G+eYmM+VJZCPbxECKv6U/p1QCQF61zXqdPBWZFS5pYe+DbhKKXCysuJNtiHxJ+vzAeClTdzYe1CxSbcGXhnv5MeGP3Z+uKpd6LzM8kiDGYnhYG60ao1L4zYjV4ZVhJrCmA6c3ov/8bZkauNVkIjBalL4QTQKGRhTe10GP1/cSB0x1by5SF18wkJ9EXIb3PIKeRezTWnohwuGImKT8RWwgPjx6bVi0uE4yp9jIhXbvPHqnAgMBAAGjJzAlMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwQHAwUAsAAAADANBgkqhkiG9w0BAQUFAAOCAQEAgsH67GXdPfibMr97gYH+G3FI+4u0U1CbkNMaowwEbL3B/S59zB/y8xS+8AYMEjtl+3mHYUX9qCpIXY+0AeQ352mP7DvGZ8SpOYYVTnUcCJWfTHuLMOa5lOpcn+5cq0W6rwoGEQJ7EcryQAQuAyMOO4cLiuPwKz8k0Z8xAwoFTx7BRcetd25RX0iT1gdiDEKY++cHI6F24YFdQllbl5R8appRdwiRnDEXw4NpZZHJQktWtkoA3FpWxfIaRjJphArA3eopfGhB10u+YS212+ed3RTfS/u3SUsihxKypolBpKKLBAcC6vMlaFVnnCODJZ+C0GN9CpMuuNgDgkTBiaMQGg==</X509Certificate>
+              </X509Data>
+            </KeyInfo>
+            <DeviceDescription>
+              <DeviceIdentifier idtype="DeviceUID" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">urn:uid:00000000-0000-0000-0000-000000000000</DeviceIdentifier>
+              <DeviceTypeID scope="http://www.dcipllc.com/schemas/430-7/2009/FLM#deviceTypes" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">SMS</DeviceTypeID>
+              <DeviceSerial xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">000000</DeviceSerial>
+              <ManufacturerName xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Doremi</ManufacturerName>
+              <ModelNumber xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">DCP0000</ModelNumber>
+              <DeviceComment xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Not a Real Device</DeviceComment>
+            </DeviceDescription>
+          </SecurityDevice>
+        </SecurityDeviceList>
+      </FLMRequiredExtensions>
+    </RequiredExtensions>
+  </AuthenticatedPublic>
+  <AuthenticatedPrivate Id="AuthenticatedPrivate.Id.f5ca8afd-b077-4f5f-99f5-33ceb4016c06" />
+  <Signature>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#AuthenticatedPublic">
+          <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+          <DigestValue>wMX7Slq4e51JtspC8QoszaEExmVG4h9ZXOjEUVHTG7c=</DigestValue>
+        </Reference>
+        <Reference URI="#AuthenticatedPrivate">
+          <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+          <DigestValue>iSPFvALlL3odHygYCN5a4LYurHW91FfHwlsGMIoND5Q=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>s3NrUhSfLroM0HK+u0cFlv167bY2W5YmsncKQLvcmpSSNBineHy5uQ9zC227LII8GAuy+c68JgOVT5vY4Aj9TzQRYK3F3TFc0xD6n8x/qG2feMhyN12naIlw3+U1IaZrzA14XPHkRNH00KwrtWGmF9AY5HRBuQM//C+emS9+g8MfB2AUvMkbv1e3rGFAGxYNsAks2pSEsMkLL7FcOZskB9ODhIHuvR9Tw8AHe49hoX2jwbKkGQxWKHhIOCxqixe9T+WY6PRfQ6C64tbAnp4LfuC61VJ1VPY4iHG+KTGMiaWrFF89b1Sk6V1q9g8wFDPNFLckP4cKgmPJE2E7bPgCYA==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIC5TCCAc2gAwIBAgIQI7CwkvQUuJdFtEPys3AAOTANBgkqhkiG9w0BAQUFADAaMRgwFgYDVQQDEw9XTVN2Yy1TRU1CRVJMRVkwHhcNMDkwOTA4MjEzMDI5WhcNMTkwOTA2MjEzMDI5WjAaMRgwFgYDVQQDEw9XTVN2Yy1TRU1CRVJMRVkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCek8J7NaLbfyyDlTudetb0/LmxHsqus7b6iPzENKZ95t2/CGPCDxwBpyudEQvVCvnyj3qrLkNstqQUHFpppPTUOx5hj1aImx8RcWe6V8G+eYmM+VJZCPbxECKv6U/p1QCQF61zXqdPBWZFS5pYe+DbhKKXCysuJNtiHxJ+vzAeClTdzYe1CxSbcGXhnv5MeGP3Z+uKpd6LzM8kiDGYnhYG60ao1L4zYjV4ZVhJrCmA6c3ov/8bZkauNVkIjBalL4QTQKGRhTe10GP1/cSB0x1by5SF18wkJ9EXIb3PIKeRezTWnohwuGImKT8RWwgPjx6bVi0uE4yp9jIhXbvPHqnAgMBAAGjJzAlMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwQHAwUAsAAAADANBgkqhkiG9w0BAQUFAAOCAQEAgsH67GXdPfibMr97gYH+G3FI+4u0U1CbkNMaowwEbL3B/S59zB/y8xS+8AYMEjtl+3mHYUX9qCpIXY+0AeQ352mP7DvGZ8SpOYYVTnUcCJWfTHuLMOa5lOpcn+5cq0W6rwoGEQJ7EcryQAQuAyMOO4cLiuPwKz8k0Z8xAwoFTx7BRcetd25RX0iT1gdiDEKY++cHI6F24YFdQllbl5R8appRdwiRnDEXw4NpZZHJQktWtkoA3FpWxfIaRjJphArA3eopfGhB10u+YS212+ed3RTfS/u3SUsihxKypolBpKKLBAcC6vMlaFVnnCODJZ+C0GN9CpMuuNgDgkTBiaMQGg==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+      <Object Id="AuthenticatedPublic">
+        <AuthenticatedPublic Id="AuthenticatedPublic.Id.f8e04a3e-d8cc-44cc-8afc-b2f6d8c9ba3c" xmlns="">
+          <MessageId>urn:uuid:a96f313c-4394-4074-8aab-9bb9624d48ad</MessageId>
+          <MessageType>http://www.smpte-ra.org/schemas/430-7/2008/FLM</MessageType>
+          <AnnotationText language="en-us">Test Facility List Message</AnnotationText>
+          <IssueDate>2009-09-14T09:56:36.9490864-05:00</IssueDate>
+          <Signer>
+            <IssuerName>CN=WMSvc-SEMBERLEY</IssuerName>
+            <SerialNumber>23B0B092F414B89745B443F2B3700039</SerialNumber>
+          </Signer>
+          <RequiredExtensions>
+            <FLMRequiredExtensions xmlns="http://www.smpte-ra.org/schemas/430-7/2008/FLM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <FacilityInfo>
+                <AnnotationText language="en-us">Example Facility List Message</AnnotationText>
+                <FacilityName>urn:x-facilityID:dcipllc.com:000000</FacilityName>
+                <UTCOffset>
+                  <Offset>-05:00</Offset>
+                </UTCOffset>
+              </FacilityInfo>
+              <SecurityDeviceList>
+                <SecurityDevice>
+                  <KeyInfo>
+                    <KeyName xmlns="http://www.w3.org/2000/09/xmldsig#">CN=WMSvc-SEMBERLEY</KeyName>
+                    <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+                      <X509Certificate>MIIC5TCCAc2gAwIBAgIQI7CwkvQUuJdFtEPys3AAOTANBgkqhkiG9w0BAQUFADAaMRgwFgYDVQQDEw9XTVN2Yy1TRU1CRVJMRVkwHhcNMDkwOTA4MjEzMDI5WhcNMTkwOTA2MjEzMDI5WjAaMRgwFgYDVQQDEw9XTVN2Yy1TRU1CRVJMRVkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCek8J7NaLbfyyDlTudetb0/LmxHsqus7b6iPzENKZ95t2/CGPCDxwBpyudEQvVCvnyj3qrLkNstqQUHFpppPTUOx5hj1aImx8RcWe6V8G+eYmM+VJZCPbxECKv6U/p1QCQF61zXqdPBWZFS5pYe+DbhKKXCysuJNtiHxJ+vzAeClTdzYe1CxSbcGXhnv5MeGP3Z+uKpd6LzM8kiDGYnhYG60ao1L4zYjV4ZVhJrCmA6c3ov/8bZkauNVkIjBalL4QTQKGRhTe10GP1/cSB0x1by5SF18wkJ9EXIb3PIKeRezTWnohwuGImKT8RWwgPjx6bVi0uE4yp9jIhXbvPHqnAgMBAAGjJzAlMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwQHAwUAsAAAADANBgkqhkiG9w0BAQUFAAOCAQEAgsH67GXdPfibMr97gYH+G3FI+4u0U1CbkNMaowwEbL3B/S59zB/y8xS+8AYMEjtl+3mHYUX9qCpIXY+0AeQ352mP7DvGZ8SpOYYVTnUcCJWfTHuLMOa5lOpcn+5cq0W6rwoGEQJ7EcryQAQuAyMOO4cLiuPwKz8k0Z8xAwoFTx7BRcetd25RX0iT1gdiDEKY++cHI6F24YFdQllbl5R8appRdwiRnDEXw4NpZZHJQktWtkoA3FpWxfIaRjJphArA3eopfGhB10u+YS212+ed3RTfS/u3SUsihxKypolBpKKLBAcC6vMlaFVnnCODJZ+C0GN9CpMuuNgDgkTBiaMQGg==</X509Certificate>
+                    </X509Data>
+                  </KeyInfo>
+                  <DeviceDescription>
+                    <DeviceIdentifier idtype="DeviceUID" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">urn:uid:00000000-0000-0000-0000-000000000000</DeviceIdentifier>
+                    <DeviceTypeID scope="http://www.dcipllc.com/schemas/430-7/2009/FLM#deviceTypes" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">SMS</DeviceTypeID>
+                    <DeviceSerial xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">000000</DeviceSerial>
+                    <ManufacturerName xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Doremi</ManufacturerName>
+                    <ModelNumber xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">DCP0000</ModelNumber>
+                    <DeviceComment xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Not a Real Device</DeviceComment>
+                  </DeviceDescription>
+                </SecurityDevice>
+              </SecurityDeviceList>
+            </FLMRequiredExtensions>
+          </RequiredExtensions>
+        </AuthenticatedPublic>
+      </Object>
+      <Object Id="AuthenticatedPrivate">
+        <AuthenticatedPrivate Id="AuthenticatedPrivate.Id.f5ca8afd-b077-4f5f-99f5-33ceb4016c06" xmlns="" />
+      </Object>
+    </Signature>
+  </Signature>
+</DCinemaSecurityMessage>

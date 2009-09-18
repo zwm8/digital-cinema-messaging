@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DCinemaSecurityMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.smpte-ra.org/schemas/430-3/2006/ETM">
+  <AuthenticatedPublic Id="AuthenticatedPublic.Id.6d666625-037e-4032-b14f-2fb48a7cc80f">
+    <MessageId>urn:uuid:6e814bee-bdb4-4e69-8d85-2ec5e17e77ae</MessageId>
+    <MessageType>http://www.smpte-ra.org/schemas/430-3/2006/ETM</MessageType>
+    <AnnotationText language="en-us">Empty Extra-Theatre Message</AnnotationText>
+    <IssueDate>2009-09-05T12:40:11.7910156-05:00</IssueDate>
+    <Signer>
+      <IssuerName>CN=ETM Test Certificate</IssuerName>
+      <SerialNumber>990B25F50DC7E2B548BE75AFED579448</SerialNumber>
+    </Signer>
+  </AuthenticatedPublic>
+  <AuthenticatedPrivate Id="AuthenticatedPrivate.Id.b5fbe224-ff99-4c21-bd9b-3f1dfecc8f9c" />
+  <Signature>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#AuthenticatedPublic">
+          <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+          <DigestValue>iiAv9S6BUScAciulpHjBbPgCSSQxqXcbuSIlaF35SZc=</DigestValue>
+        </Reference>
+        <Reference URI="#AuthenticatedPrivate">
+          <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+          <DigestValue>IrWaj8niSnvE/Noq16ttIWjW8rut+9XhlAVJZcEuWiE=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>MnOVaGaIcReYwOQxXN31HTa3OE090zGrxorvLz7OS/wosfZXi9B2trbgeCc4FEPd2cB/dnoxauZZi4nhzkXBxA8GcjQgBAsqT7nk09smOf2gzYXjWDuHT29GMLrejrzSbJu+iP8/CBS4tqn8j6SqYb6Ruudj4cE+7BNjq9d66UM=</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIICFzCCAYCgAwIBAgIQmQsl9Q3H4rVIvnWv7VeUSDANBgkqhkiG9w0BAQQFADAfMR0wGwYDVQQDExRFVE0gVGVzdCBDZXJ0aWZpY2F0ZTAeFw0wOTAxMDEwNTAwMDBaFw0yMDAxMDEwNTAwMDBaMB8xHTAbBgNVBAMTFEVUTSBUZXN0IENlcnRpZmljYXRlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCQxQ5uy36YtWmsoVf2Yrqb8rT/paKLyLaaCjR2efIhlq9TJE8GuFSOR7p9zoGBBMcS45Kl+YuSqXsTiievRb3YvbO40jIYxzMjm2/4hhgfpr5ZJN1VbU/2Dr/DjzRH2eDeg3THoFKSvnriorPSJVLi6kHdk83o/zgZBp6nORndWwIDAQABo1QwUjBQBgNVHQEESTBHgBCb7SOM3lCcumoMKX9T9sKmoSEwHzEdMBsGA1UEAxMURVRNIFRlc3QgQ2VydGlmaWNhdGWCEJkLJfUNx+K1SL51r+1XlEgwDQYJKoZIhvcNAQEEBQADgYEAAgGZ9tsoJ60tFDoXG+EIh6kyWM/ttiZmYQngIDSimvXYT0URIQLfxzQ1lk4h6r1F+IUnDwCFn8BzeQ30dmIWhEI4cQ6ovFDrH2YW2WkxIGn2xdJ+SPndLRbB+pZxKd6Mt9pzWgg0CzEQDU6Ov4EbVGk1/H26rqyFds4SAjHBINI=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+      <Object Id="AuthenticatedPublic">
+        <AuthenticatedPublic Id="AuthenticatedPublic.Id.6d666625-037e-4032-b14f-2fb48a7cc80f" xmlns="">
+          <MessageId>urn:uuid:6e814bee-bdb4-4e69-8d85-2ec5e17e77ae</MessageId>
+          <MessageType>http://www.smpte-ra.org/schemas/430-3/2006/ETM</MessageType>
+          <AnnotationText language="en-us">Empty Extra-Theatre Message</AnnotationText>
+          <IssueDate>2009-09-05T12:40:11.7910156-05:00</IssueDate>
+          <Signer>
+            <IssuerName>CN=ETM Test Certificate</IssuerName>
+            <SerialNumber>990B25F50DC7E2B548BE75AFED579448</SerialNumber>
+          </Signer>
+        </AuthenticatedPublic>
+      </Object>
+      <Object Id="AuthenticatedPrivate">
+        <AuthenticatedPrivate Id="AuthenticatedPrivate.Id.b5fbe224-ff99-4c21-bd9b-3f1dfecc8f9c" xmlns="" />
+      </Object>
+    </Signature>
+  </Signature>
+</DCinemaSecurityMessage>

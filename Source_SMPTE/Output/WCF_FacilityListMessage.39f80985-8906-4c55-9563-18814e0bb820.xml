@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DCinemaSecurityMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.smpte-ra.org/schemas/430-3/2006/ETM">
+  <AuthenticatedPublic Id="AuthenticatedPublic.Id.91ca09c4-61b5-490b-b4a0-428b47f80ce6">
+    <MessageId>urn:uuid:39f80985-8906-4c55-9563-18814e0bb820</MessageId>
+    <MessageType>http://www.smpte-ra.org/schemas/430-7/2008/FLM</MessageType>
+    <AnnotationText language="en-us">Test Facility List Message</AnnotationText>
+    <IssueDate>2009-09-14T21:01:47.2880859-05:00</IssueDate>
+    <Signer>
+      <IssuerName>CN=ETM Test Certificate</IssuerName>
+      <SerialNumber>990B25F50DC7E2B548BE75AFED579448</SerialNumber>
+    </Signer>
+    <RequiredExtensions>
+      <FLMRequiredExtensions xmlns="http://www.smpte-ra.org/schemas/430-7/2008/FLM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <FacilityInfo>
+          <AnnotationText language="en-us">Example Facility List Message</AnnotationText>
+          <FacilityName>urn:x-facilityID:dcipllc.com:000000</FacilityName>
+          <UTCOffset>
+            <Offset>-05:00</Offset>
+          </UTCOffset>
+        </FacilityInfo>
+        <SecurityDeviceList>
+          <SecurityDevice>
+            <KeyInfo>
+              <KeyName xmlns="http://www.w3.org/2000/09/xmldsig#">CN=ETM Test Certificate</KeyName>
+              <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Certificate>MIICFzCCAYCgAwIBAgIQmQsl9Q3H4rVIvnWv7VeUSDANBgkqhkiG9w0BAQQFADAfMR0wGwYDVQQDExRFVE0gVGVzdCBDZXJ0aWZpY2F0ZTAeFw0wOTAxMDEwNTAwMDBaFw0yMDAxMDEwNTAwMDBaMB8xHTAbBgNVBAMTFEVUTSBUZXN0IENlcnRpZmljYXRlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCQxQ5uy36YtWmsoVf2Yrqb8rT/paKLyLaaCjR2efIhlq9TJE8GuFSOR7p9zoGBBMcS45Kl+YuSqXsTiievRb3YvbO40jIYxzMjm2/4hhgfpr5ZJN1VbU/2Dr/DjzRH2eDeg3THoFKSvnriorPSJVLi6kHdk83o/zgZBp6nORndWwIDAQABo1QwUjBQBgNVHQEESTBHgBCb7SOM3lCcumoMKX9T9sKmoSEwHzEdMBsGA1UEAxMURVRNIFRlc3QgQ2VydGlmaWNhdGWCEJkLJfUNx+K1SL51r+1XlEgwDQYJKoZIhvcNAQEEBQADgYEAAgGZ9tsoJ60tFDoXG+EIh6kyWM/ttiZmYQngIDSimvXYT0URIQLfxzQ1lk4h6r1F+IUnDwCFn8BzeQ30dmIWhEI4cQ6ovFDrH2YW2WkxIGn2xdJ+SPndLRbB+pZxKd6Mt9pzWgg0CzEQDU6Ov4EbVGk1/H26rqyFds4SAjHBINI=</X509Certificate>
+              </X509Data>
+            </KeyInfo>
+            <DeviceDescription>
+              <DeviceIdentifier idtype="DeviceUID" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">urn:uid:00000000-0000-0000-0000-000000000000</DeviceIdentifier>
+              <DeviceTypeID scope="http://www.dcipllc.com/schemas/430-7/2009/FLM#deviceTypes" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">SMS</DeviceTypeID>
+              <DeviceSerial xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">000000</DeviceSerial>
+              <ManufacturerName xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Doremi</ManufacturerName>
+              <ModelNumber xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">DCP0000</ModelNumber>
+              <DeviceComment xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Not a Real Device</DeviceComment>
+            </DeviceDescription>
+          </SecurityDevice>
+        </SecurityDeviceList>
+      </FLMRequiredExtensions>
+    </RequiredExtensions>
+  </AuthenticatedPublic>
+  <AuthenticatedPrivate Id="AuthenticatedPrivate.Id.55414c24-c31e-4ff6-bddd-1cf9b2fd8f2e" />
+  <Signature>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#AuthenticatedPublic">
+          <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+          <DigestValue>2YaJs9c7PRjKXC1Y8Kp4N4MLqmvMEpP6u9iIe0JHfpE=</DigestValue>
+        </Reference>
+        <Reference URI="#AuthenticatedPrivate">
+          <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+          <DigestValue>2ej9zW5PCEDffAeMyDVyMtMLMJYt8eO30ch7B/hg2hk=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>GI5ILY3toADYs41kxeulYvoGB3vp48A441+BB+UOsYn47rzCt29tDULLYyVckXrV440j33oAlFVTHwh6LahLcBbBwMRQxlf1s6yBN+QkIlt2WwzSwBJVjZMxNmrnjAdPigg+9Kg8BAjOdDRjbi4PUKIAp9rDaLzSa2g4fyhgnyU=</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIICFzCCAYCgAwIBAgIQmQsl9Q3H4rVIvnWv7VeUSDANBgkqhkiG9w0BAQQFADAfMR0wGwYDVQQDExRFVE0gVGVzdCBDZXJ0aWZpY2F0ZTAeFw0wOTAxMDEwNTAwMDBaFw0yMDAxMDEwNTAwMDBaMB8xHTAbBgNVBAMTFEVUTSBUZXN0IENlcnRpZmljYXRlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCQxQ5uy36YtWmsoVf2Yrqb8rT/paKLyLaaCjR2efIhlq9TJE8GuFSOR7p9zoGBBMcS45Kl+YuSqXsTiievRb3YvbO40jIYxzMjm2/4hhgfpr5ZJN1VbU/2Dr/DjzRH2eDeg3THoFKSvnriorPSJVLi6kHdk83o/zgZBp6nORndWwIDAQABo1QwUjBQBgNVHQEESTBHgBCb7SOM3lCcumoMKX9T9sKmoSEwHzEdMBsGA1UEAxMURVRNIFRlc3QgQ2VydGlmaWNhdGWCEJkLJfUNx+K1SL51r+1XlEgwDQYJKoZIhvcNAQEEBQADgYEAAgGZ9tsoJ60tFDoXG+EIh6kyWM/ttiZmYQngIDSimvXYT0URIQLfxzQ1lk4h6r1F+IUnDwCFn8BzeQ30dmIWhEI4cQ6ovFDrH2YW2WkxIGn2xdJ+SPndLRbB+pZxKd6Mt9pzWgg0CzEQDU6Ov4EbVGk1/H26rqyFds4SAjHBINI=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+      <Object Id="AuthenticatedPublic">
+        <AuthenticatedPublic Id="AuthenticatedPublic.Id.91ca09c4-61b5-490b-b4a0-428b47f80ce6" xmlns="">
+          <MessageId>urn:uuid:39f80985-8906-4c55-9563-18814e0bb820</MessageId>
+          <MessageType>http://www.smpte-ra.org/schemas/430-7/2008/FLM</MessageType>
+          <AnnotationText language="en-us">Test Facility List Message</AnnotationText>
+          <IssueDate>2009-09-14T21:01:47.2880859-05:00</IssueDate>
+          <Signer>
+            <IssuerName>CN=ETM Test Certificate</IssuerName>
+            <SerialNumber>990B25F50DC7E2B548BE75AFED579448</SerialNumber>
+          </Signer>
+          <RequiredExtensions>
+            <FLMRequiredExtensions xmlns="http://www.smpte-ra.org/schemas/430-7/2008/FLM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <FacilityInfo>
+                <AnnotationText language="en-us">Example Facility List Message</AnnotationText>
+                <FacilityName>urn:x-facilityID:dcipllc.com:000000</FacilityName>
+                <UTCOffset>
+                  <Offset>-05:00</Offset>
+                </UTCOffset>
+              </FacilityInfo>
+              <SecurityDeviceList>
+                <SecurityDevice>
+                  <KeyInfo>
+                    <KeyName xmlns="http://www.w3.org/2000/09/xmldsig#">CN=ETM Test Certificate</KeyName>
+                    <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+                      <X509Certificate>MIICFzCCAYCgAwIBAgIQmQsl9Q3H4rVIvnWv7VeUSDANBgkqhkiG9w0BAQQFADAfMR0wGwYDVQQDExRFVE0gVGVzdCBDZXJ0aWZpY2F0ZTAeFw0wOTAxMDEwNTAwMDBaFw0yMDAxMDEwNTAwMDBaMB8xHTAbBgNVBAMTFEVUTSBUZXN0IENlcnRpZmljYXRlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCQxQ5uy36YtWmsoVf2Yrqb8rT/paKLyLaaCjR2efIhlq9TJE8GuFSOR7p9zoGBBMcS45Kl+YuSqXsTiievRb3YvbO40jIYxzMjm2/4hhgfpr5ZJN1VbU/2Dr/DjzRH2eDeg3THoFKSvnriorPSJVLi6kHdk83o/zgZBp6nORndWwIDAQABo1QwUjBQBgNVHQEESTBHgBCb7SOM3lCcumoMKX9T9sKmoSEwHzEdMBsGA1UEAxMURVRNIFRlc3QgQ2VydGlmaWNhdGWCEJkLJfUNx+K1SL51r+1XlEgwDQYJKoZIhvcNAQEEBQADgYEAAgGZ9tsoJ60tFDoXG+EIh6kyWM/ttiZmYQngIDSimvXYT0URIQLfxzQ1lk4h6r1F+IUnDwCFn8BzeQ30dmIWhEI4cQ6ovFDrH2YW2WkxIGn2xdJ+SPndLRbB+pZxKd6Mt9pzWgg0CzEQDU6Ov4EbVGk1/H26rqyFds4SAjHBINI=</X509Certificate>
+                    </X509Data>
+                  </KeyInfo>
+                  <DeviceDescription>
+                    <DeviceIdentifier idtype="DeviceUID" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">urn:uid:00000000-0000-0000-0000-000000000000</DeviceIdentifier>
+                    <DeviceTypeID scope="http://www.dcipllc.com/schemas/430-7/2009/FLM#deviceTypes" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">SMS</DeviceTypeID>
+                    <DeviceSerial xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">000000</DeviceSerial>
+                    <ManufacturerName xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Doremi</ManufacturerName>
+                    <ModelNumber xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">DCP0000</ModelNumber>
+                    <DeviceComment xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Not a Real Device</DeviceComment>
+                  </DeviceDescription>
+                </SecurityDevice>
+              </SecurityDeviceList>
+            </FLMRequiredExtensions>
+          </RequiredExtensions>
+        </AuthenticatedPublic>
+      </Object>
+      <Object Id="AuthenticatedPrivate">
+        <AuthenticatedPrivate Id="AuthenticatedPrivate.Id.55414c24-c31e-4ff6-bddd-1cf9b2fd8f2e" xmlns="" />
+      </Object>
+    </Signature>
+  </Signature>
+</DCinemaSecurityMessage>

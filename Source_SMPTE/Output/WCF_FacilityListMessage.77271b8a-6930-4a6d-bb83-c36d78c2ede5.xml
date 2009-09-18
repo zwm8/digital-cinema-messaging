@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DCinemaSecurityMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.smpte-ra.org/schemas/430-3/2006/ETM">
+  <AuthenticatedPublic Id="AuthenticatedPublic.Id.32b21ff0-89ae-4eff-ac8b-7a541cf5e19c">
+    <MessageId>urn:uuid:77271b8a-6930-4a6d-bb83-c36d78c2ede5</MessageId>
+    <MessageType>http://www.smpte-ra.org/schemas/430-7/2008/FLM</MessageType>
+    <AnnotationText language="en-us">Test Facility List Message</AnnotationText>
+    <IssueDate>2009-09-15T15:56:40.7094815-05:00</IssueDate>
+    <Signer>
+      <IssuerName>CN=WMSvc-SEMBERLEY</IssuerName>
+      <SerialNumber>23B0B092F414B89745B443F2B3700039</SerialNumber>
+    </Signer>
+    <RequiredExtensions>
+      <FLMRequiredExtensions xmlns="http://www.smpte-ra.org/schemas/430-7/2008/FLM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <FacilityInfo>
+          <AnnotationText language="en-us">Example Facility List Message</AnnotationText>
+          <FacilityName>urn:x-facilityID:dcipllc.com:000000</FacilityName>
+          <UTCOffset>
+            <Offset>-05:00</Offset>
+          </UTCOffset>
+        </FacilityInfo>
+        <SecurityDeviceList>
+          <SecurityDevice>
+            <KeyInfo>
+              <KeyName xmlns="http://www.w3.org/2000/09/xmldsig#">CN=WMSvc-SEMBERLEY</KeyName>
+              <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Certificate>MIIC5TCCAc2gAwIBAgIQI7CwkvQUuJdFtEPys3AAOTANBgkqhkiG9w0BAQUFADAaMRgwFgYDVQQDEw9XTVN2Yy1TRU1CRVJMRVkwHhcNMDkwOTA4MjEzMDI5WhcNMTkwOTA2MjEzMDI5WjAaMRgwFgYDVQQDEw9XTVN2Yy1TRU1CRVJMRVkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCek8J7NaLbfyyDlTudetb0/LmxHsqus7b6iPzENKZ95t2/CGPCDxwBpyudEQvVCvnyj3qrLkNstqQUHFpppPTUOx5hj1aImx8RcWe6V8G+eYmM+VJZCPbxECKv6U/p1QCQF61zXqdPBWZFS5pYe+DbhKKXCysuJNtiHxJ+vzAeClTdzYe1CxSbcGXhnv5MeGP3Z+uKpd6LzM8kiDGYnhYG60ao1L4zYjV4ZVhJrCmA6c3ov/8bZkauNVkIjBalL4QTQKGRhTe10GP1/cSB0x1by5SF18wkJ9EXIb3PIKeRezTWnohwuGImKT8RWwgPjx6bVi0uE4yp9jIhXbvPHqnAgMBAAGjJzAlMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwQHAwUAsAAAADANBgkqhkiG9w0BAQUFAAOCAQEAgsH67GXdPfibMr97gYH+G3FI+4u0U1CbkNMaowwEbL3B/S59zB/y8xS+8AYMEjtl+3mHYUX9qCpIXY+0AeQ352mP7DvGZ8SpOYYVTnUcCJWfTHuLMOa5lOpcn+5cq0W6rwoGEQJ7EcryQAQuAyMOO4cLiuPwKz8k0Z8xAwoFTx7BRcetd25RX0iT1gdiDEKY++cHI6F24YFdQllbl5R8appRdwiRnDEXw4NpZZHJQktWtkoA3FpWxfIaRjJphArA3eopfGhB10u+YS212+ed3RTfS/u3SUsihxKypolBpKKLBAcC6vMlaFVnnCODJZ+C0GN9CpMuuNgDgkTBiaMQGg==</X509Certificate>
+              </X509Data>
+            </KeyInfo>
+            <DeviceDescription>
+              <DeviceIdentifier idtype="DeviceUID" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">urn:uid:00000000-0000-0000-0000-000000000000</DeviceIdentifier>
+              <DeviceTypeID scope="http://www.dcipllc.com/schemas/430-7/2009/FLM#deviceTypes" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">SMS</DeviceTypeID>
+              <DeviceSerial xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">000000</DeviceSerial>
+              <ManufacturerName xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Doremi</ManufacturerName>
+              <ModelNumber xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">DCP0000</ModelNumber>
+              <DeviceComment xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Not a Real Device</DeviceComment>
+            </DeviceDescription>
+          </SecurityDevice>
+        </SecurityDeviceList>
+      </FLMRequiredExtensions>
+    </RequiredExtensions>
+    <NonCriticalExtensions>
+      <FLMNonCriticalExtensions xmlns="http://www.dcip.com/schemas/430-7/2009/flm_ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <DeviceList>
+          <Device>
+            <DeviceDescription>
+              <DeviceIdentifier idtype="DeviceUID" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">urn:uid:29132c3d-154b-4d96-a37d-3deebc15b56b</DeviceIdentifier>
+              <DeviceTypeID scope="http://www.dcipllc.com/schemas/430-7/2009/FLM#deviceTypes" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">SMS</DeviceTypeID>
+              <DeviceSerial xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">000000</DeviceSerial>
+              <ManufacturerName xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Doremi</ManufacturerName>
+              <ModelNumber xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">DCP0000</ModelNumber>
+              <DeviceComment xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Not a Real Device</DeviceComment>
+            </DeviceDescription>
+            <DeviceAttributeList>
+              <DeviceAttribute>
+                <Name>Ghostbusting</Name>
+                <Value>Installed</Value>
+              </DeviceAttribute>
+              <DeviceAttribute>
+                <Name>Storage</Name>
+                <Value>2TB</Value>
+              </DeviceAttribute>
+            </DeviceAttributeList>
+            <IPAddressList>
+              <IPAddress>
+                <Address>127.0.0.1</Address>
+                <Host>localhost</Host>
+              </IPAddress>
+              <IPAddress>
+                <Address>192.168.1.1</Address>
+                <Host>private.IPv4.network</Host>
+              </IPAddress>
+            </IPAddressList>
+            <InstallDate>2009-09-15T15:56:41.1574815-05:00</InstallDate>
+            <DecommissionDate>2009-09-15T15:56:41.1574815-05:00</DecommissionDate>
+            <IsActive>true</IsActive>
+            <SoftwareList>
+              <Software>
+                <SoftwareProducer>Doremi</SoftwareProducer>
+                <Description>Playback Engine</Description>
+                <Version>0.0.1</Version>
+                <FileName>playback.dll</FileName>
+              </Software>
+              <Software>
+                <SoftwareProducer>Doremi</SoftwareProducer>
+                <Description>Security Log Generator</Description>
+                <Version>0.0.1</Version>
+                <FileName>securitylog.dll</FileName>
+              </Software>
+            </SoftwareList>
+            <OtherSecurity>
+              <WatermarkingList>
+                <Watermarking>
+                  <WatermarkManufacturer>Thompson</WatermarkManufacturer>
+                  <WatermarkModel>SMS</WatermarkModel>
+                  <WatermarkVersion>0.0.1</WatermarkVersion>
+                </Watermarking>
+              </WatermarkingList>
+              <CertificateList>
+                <Certificate>
+                  <CertificateClass>Signature</CertificateClass>
+                  <X509Certificate>MIIC5TCCAc2gAwIBAgIQI7CwkvQUuJdFtEPys3AAOTANBgkqhkiG9w0BAQUFADAaMRgwFgYDVQQDEw9XTVN2Yy1TRU1CRVJMRVkwHhcNMDkwOTA4MjEzMDI5WhcNMTkwOTA2MjEzMDI5WjAaMRgwFgYDVQQDEw9XTVN2Yy1TRU1CRVJMRVkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCek8J7NaLbfyyDlTudetb0/LmxHsqus7b6iPzENKZ95t2/CGPCDxwBpyudEQvVCvnyj3qrLkNstqQUHFpppPTUOx5hj1aImx8RcWe6V8G+eYmM+VJZCPbxECKv6U/p1QCQF61zXqdPBWZFS5pYe+DbhKKXCysuJNtiHxJ+vzAeClTdzYe1CxSbcGXhnv5MeGP3Z+uKpd6LzM8kiDGYnhYG60ao1L4zYjV4ZVhJrCmA6c3ov/8bZkauNVkIjBalL4QTQKGRhTe10GP1/cSB0x1by5SF18wkJ9EXIb3PIKeRezTWnohwuGImKT8RWwgPjx6bVi0uE4yp9jIhXbvPHqnAgMBAAGjJzAlMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwQHAwUAsAAAADANBgkqhkiG9w0BAQUFAAOCAQEAgsH67GXdPfibMr97gYH+G3FI+4u0U1CbkNMaowwEbL3B/S59zB/y8xS+8AYMEjtl+3mHYUX9qCpIXY+0AeQ352mP7DvGZ8SpOYYVTnUcCJWfTHuLMOa5lOpcn+5cq0W6rwoGEQJ7EcryQAQuAyMOO4cLiuPwKz8k0Z8xAwoFTx7BRcetd25RX0iT1gdiDEKY++cHI6F24YFdQllbl5R8appRdwiRnDEXw4NpZZHJQktWtkoA3FpWxfIaRjJphArA3eopfGhB10u+YS212+ed3RTfS/u3SUsihxKypolBpKKLBAcC6vMlaFVnnCODJZ+C0GN9CpMuuNgDgkTBiaMQGg==</X509Certificate>
+                </Certificate>
+              </CertificateList>
+            </OtherSecurity>
+          </Device>
+          <Device>
+            <DeviceDescription>
+              <DeviceIdentifier idtype="DeviceUID" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">urn:uid:6f90f426-982e-43c7-b6ce-d65233ccf566</DeviceIdentifier>
+              <DeviceTypeID scope="http://www.dcipllc.com/schemas/430-7/2009/FLM#deviceTypes" xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">TMS</DeviceTypeID>
+              <DeviceSerial xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">000001</DeviceSerial>
+              <ManufacturerName xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Doremi</ManufacturerName>
+              <ModelNumber xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">DCP0001</ModelNumber>
+              <DeviceComment xmlns="http://www.smpte-ra.org/schemas/433/2008/dcmlTypes">Not a Real Device</DeviceComment>
+            </DeviceDescription>
+            <IPAddressList>
+              <IPAddress>
+                <Address>127.0.0.1</Address>
+                <Host>localhost</Host>
+              </IPAddress>
+              <IPAddress>
+                <Address>192.168.1.2</Address>
+                <Host>private.IPv4.network</Host>
+              </IPAddress>
+            </IPAddressList>
+            <InstallDate>2009-09-15T15:56:41.1624815-05:00</InstallDate>
+            <IsActive>true</IsActive>
+            <OtherSecurity>
+              <CertificateList>
+                <Certificate>
+                  <CertificateClass>PublicKey</CertificateClass>
+                  <X509Certificate>MIIBCgKCAQEAwnpPCezWi238sg5U7nXrW9Py5sR7KrrO2+oj8xDSmfebdvwhjwg8cAacrnREL1Qr58o96qy5DbLakFBxaaaT01DseYY9WiJsfEXFnulfBvnmJjPlSWQj28RAir+lP6dUAkBetc16nTwVmRUuaWHvg24SilwsrLiTbYh8Sfr8wHgpU3c2HtQsUm3Bl4Z7+THhj92friqXei8zPJIgxmJ4WButGqNS+M2I1eGVYSawpgOnN6L//G2ZGrjVZCIwWpS+EE0ChkYU3tdBj9f3EgdMdW8uUhdfMJCfRFyG9zyCnkXs01p6IcLhiJik/EVsID48em1YtLhOMqfYyIV27zx6pwIDAQAB</X509Certificate>
+                </Certificate>
+              </CertificateList>
+            </OtherSecurity>
+          </Device>
+        </DeviceList>
+        <NonCriticalFacilityInfo>
+          <Circuit>anyCircuit</Circuit>
+          <DistributionCapabilitiyList>
+            <Capability>
+              <Method>Satellite</Method>
+              <Detail>Dish on Roof</Detail>
+              <Provider>SatService</Provider>
+            </Capability>
+            <Capability>
+              <Method>Internet</Method>
+              <Detail>T1</Detail>
+              <Provider>InternetService</Provider>
+            </Capability>
+          </DistributionCapabilitiyList>
+          <FacilityName>AnyFacility</FacilityName>
+          <AddressList>
+            <Address>
+              <AddressClass>PHYSICAL</AddressClass>
+              <StreetAddress>111 Main Street</StreetAddress>
+              <City>Any City</City>
+              <State>Any State</State>
+              <PostalCode>Any Postal Code</PostalCode>
+              <Country>Any Country</Country>
+            </Address>
+            <Address>
+              <AddressClass>SHIPPING</AddressClass>
+              <StreetAddress>112 Main Street</StreetAddress>
+              <City>Any City</City>
+              <State>Any State</State>
+              <PostalCode>Any Postal Code</PostalCode>
+              <Country>Any Country</Country>
+            </Address>
+          </AddressList>
+          <FacilityUriList>
+            <FacilityUri>urn:x-facilityID:dcipllc.com:256</FacilityUri>
+          </FacilityUriList>
+          <FacilityDeviceList>
+            <DeviceIdentifier idtype="DeviceUID">urn:uid:6f90f426-982e-43c7-b6ce-d65233ccf566</DeviceIdentifier>
+          </FacilityDeviceList>
+          <FacilityAttributeList>
+            <FacilityAttribute>
+              <Name>Elevator</Name>
+              <Value>4' x 6' x 10' Tall</Value>
+            </FacilityAttribute>
+            <FacilityAttribute>
+              <Name>Loading Dock</Name>
+              <Value>North Side</Value>
+            </FacilityAttribute>
+          </FacilityAttributeList>
+          <FacilityTimeZone>CST</FacilityTimeZone>
+        </NonCriticalFacilityInfo>
+        <NonCriticalAuditoriumInfo>
+          <Auditorium>
+            <AuditoriumNumber>1</AuditoriumNumber>
+            <AuditoriumDeviceList>
+              <DeviceIdentifier idtype="DeviceUID">urn:uid:29132c3d-154b-4d96-a37d-3deebc15b56b</DeviceIdentifier>
+            </AuditoriumDeviceList>
+            <Digital3DSystem>
+              <IsActive>false</IsActive>
+              <Digital3DConfiguration>RealD</Digital3DConfiguration>
+              <InstallDate>2009-09-15T15:56:41.1724815-05:00</InstallDate>
+              <DecommissionDate>2009-09-15T15:56:41.1724815-05:00</DecommissionDate>
+              <ScreenColor>WHITE</ScreenColor>
+              <Ghostbusting>true</Ghostbusting>
+              <GhostbustingConfiguration>In Server</GhostbustingConfiguration>
+            </Digital3DSystem>
+            <ServiceProvider>DCIP</ServiceProvider>
+            <InstallationId>5f9cda28-1a82-4471-8c79-506d4c5446e2</InstallationId>
+            <AuditoriumAttributeList>
+              <AuditoriumAttribute>
+                <Name>Masking</Name>
+                <Value>Side</Value>
+              </AuditoriumAttribute>
+              <AuditoriumAttribute>
+                <Name>Audio</Name>
+                <Value>Dolby 5.1</Value>
+              </AuditoriumAttribute>
+            </AuditoriumAttributeList>
+            <AuditoriumInstallationDate>2009-09-15T20:56:41.1744815Z</AuditoriumInstallationDate>
+            <Integrator>DCIP</Integrator>
+          </Auditorium>
+        </NonCriticalAuditoriumInfo>
+      </FLMNonCriticalExtensions>
+    </NonCriticalExtensions>
+  </AuthenticatedPublic>
+  <AuthenticatedPrivate Id="AuthenticatedPrivate.Id.475daf7f-d470-4239-8e13-9562b46029c2" />
+  <Signature>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="#AuthenticatedPublic">
+          <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+          <DigestValue>3Ovh0Ef/6hDDbAlpil50ycjYtsnnTASyMwS+tPqxjkE=</DigestValue>
+        </Reference>
+        <Reference URI="#AuthenticatedPrivate">
+          <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+          <DigestValue>aQnJIhTODzt5b89gn+ehd5uJ61bf1rWoo4xt7zofF8s=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>goibSnSzI5ZRNlPC4fILajebK9rcl72jeDQ43Ujuik/gsNy4yxbYSYCusHNR2AX6K9YriD49G8W5DnEg1vWg5Hw9tyatDd2xsfIh+8I/mpBg6XaO/uwLe42qQ51UH/zI2HBvgG+2oLNR6ceUioTvhMaR8Qf6z0HjVKr/uKhzyQA0SyRmfK3WLH0FY6Nk9xJN8hKCA4Bt43m7B/69CQVDh3lY4Mn/ksMtGx19N9OfO1kxP+o4BeIrDKdt5FOI1ZiCPyQDC+lvuhUOWup7R2OBCPdiKZIYHg04BWpXN9oKdN7eRLv41cXtE8UK0cftIJwnER8fwMg7YiQM76H3RWZBnw==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509Certificate>MIIC5TCCAc2gAwIBAgIQI7CwkvQUuJdFtEPys3AAOTANBgkqhkiG9w0BAQUFADAaMRgwFgYDVQQDEw9XTVN2Yy1TRU1CRVJMRVkwHhcNMDkwOTA4MjEzMDI5WhcNMTkwOTA2MjEzMDI5WjAaMRgwFgYDVQQDEw9XTVN2Yy1TRU1CRVJMRVkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCek8J7NaLbfyyDlTudetb0/LmxHsqus7b6iPzENKZ95t2/CGPCDxwBpyudEQvVCvnyj3qrLkNstqQUHFpppPTUOx5hj1aImx8RcWe6V8G+eYmM+VJZCPbxECKv6U/p1QCQF61zXqdPBWZFS5pYe+DbhKKXCysuJNtiHxJ+vzAeClTdzYe1CxSbcGXhnv5MeGP3Z+uKpd6LzM8kiDGYnhYG60ao1L4zYjV4ZVhJrCmA6c3ov/8bZkauNVkIjBalL4QTQKGRhTe10GP1/cSB0x1by5SF18wkJ9EXIb3PIKeRezTWnohwuGImKT8RWwgPjx6bVi0uE4yp9jIhXbvPHqnAgMBAAGjJzAlMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwQHAwUAsAAAADANBgkqhkiG9w0BAQUFAAOCAQEAgsH67GXdPfibMr97gYH+G3FI+4u0U1CbkNMaowwEbL3B/S59zB/y8xS+8AYMEjtl+3mHYUX9qCpIXY+0AeQ352mP7DvGZ8SpOYYVTnUcCJWfTHuLMOa5lOpcn+5cq0W6rwoGEQJ7EcryQAQuAyMOO4cLiuPwKz8k0Z8xAwoFTx7BRcetd25RX0iT1gdiDEKY++cHI6F24YFdQllbl5R8appRdwiRnDEXw4NpZZHJQktWtkoA3FpWxfIaRjJphArA3eopfGhB10u+YS212+ed3RTfS/u3SUsihxKypolBpKKLBAcC6vMlaFVnnCODJZ+C0GN9CpMuuNgDgkTBiaMQGg==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </Signature>
+</DCinemaSecurityMessage>

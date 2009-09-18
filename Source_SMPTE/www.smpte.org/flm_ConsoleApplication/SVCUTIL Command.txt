@@ -1,0 +1,1 @@
+﻿svcutil http://localhost:1049/ServiceFacilityListMessage.svc /reference:C:\Source_SMPTE\www.smpte.org\etm\bin\Debug\etm.dll /reference:C:\SMPTE_Source\www.smpte.org\flm\bin\Debug\flm.dll /reference:C:\SMPTE_Source\www.smpte.org\flm\bin\Debug\dcmltypes.dll /config:App.config
