@@ -1,0 +1,3 @@
+﻿svcutil dcmlTypes.xsd /dconly /importXmlTypes /out:dcmlTypes.cs /excludeType:http://www.w3.org/2000/09/xmldsig#:DigestValueType
+
+change the namespace to www.smpte.org.dcmltypes

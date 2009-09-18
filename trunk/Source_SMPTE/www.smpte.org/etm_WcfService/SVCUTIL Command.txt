@@ -1,0 +1,1 @@
+﻿svcutil http://localhost:3444/ServiceExtraTheatreMessage.svc /config:App.config /reference:C:\Source_SMPTE\www.smpte.org\etm\bin\Debug\etm.dll
