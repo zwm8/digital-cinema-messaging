@@ -3,3 +3,8 @@ C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary\bin\Debug\X509C
 C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary\obj\Debug\ResolveAssemblyReference.cache
 C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary\obj\Debug\X509Certificate_ClassLibrary.dll
 C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary\obj\Debug\X509Certificate_ClassLibrary.pdb
+E:\digital-cinema-messaging\Source_X509_Certificates\X509 Certificates\X509Certificate_ClassLibrary\bin\Debug\X509Certificate_ClassLibrary.dll
+E:\digital-cinema-messaging\Source_X509_Certificates\X509 Certificates\X509Certificate_ClassLibrary\bin\Debug\X509Certificate_ClassLibrary.pdb
+E:\digital-cinema-messaging\Source_X509_Certificates\X509 Certificates\X509Certificate_ClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+E:\digital-cinema-messaging\Source_X509_Certificates\X509 Certificates\X509Certificate_ClassLibrary\obj\Debug\X509Certificate_ClassLibrary.dll
+E:\digital-cinema-messaging\Source_X509_Certificates\X509 Certificates\X509Certificate_ClassLibrary\obj\Debug\X509Certificate_ClassLibrary.pdb

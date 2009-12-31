@@ -46,7 +46,7 @@ namespace FLM.ConsoleTestApplication
             try
             {
                 XmlDocument xmlDocument = FacilityListMessageUtilities.FLM_Create(siteId, x509Certificate2, connectionString);
-                xmlDocument.Save(@"\Source_SMPTE\Output\FLM_DCinemaSecurityMessage.xml");
+                xmlDocument.Save(@"\_Testing Output\DCIP.FLM.ConsoleTestApplication\FLM_DCinemaSecurityMessage.xml");
             }
             catch (Exception e)
             {
@@ -56,7 +56,7 @@ namespace FLM.ConsoleTestApplication
             try
             {
                 XmlDocument xmlDocumentExtended = FacilityListMessageUtilities.FLMEXT_Create(siteId, x509Certificate2, connectionString);
-                xmlDocumentExtended.Save(@"\Source_SMPTE\Output\FLMEXT_DCinemaSecurityMessage.xml");
+                xmlDocumentExtended.Save(@"\_Testing Output\DCIP.FLM.ConsoleTestApplication\FLMEXT_DCinemaSecurityMessage.xml");
             }
             catch (Exception e)
             {

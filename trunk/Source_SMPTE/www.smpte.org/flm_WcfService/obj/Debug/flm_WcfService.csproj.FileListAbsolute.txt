@@ -46,3 +46,16 @@ E:\Source_SMPTE\www.smpte.org\flm_WcfService\bin\w3.xmldsig.dll
 E:\Source_SMPTE\www.smpte.org\flm_WcfService\bin\w3.xmldsig.pdb
 C:\Source_SMPTE\www.smpte.org\flm_WcfService\bin\w3.xmldsig.dll
 C:\Source_SMPTE\www.smpte.org\flm_WcfService\bin\w3.xmldsig.pdb
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_WcfService\bin\flm_WcfService.dll
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_WcfService\bin\flm_WcfService.pdb
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_WcfService\bin\smpte.etm.dll
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_WcfService\bin\smpte.flm.dll
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_WcfService\bin\w3.xmldsig.dll
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_WcfService\bin\smpte.dcmltypes.dll
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_WcfService\bin\smpte.flm.pdb
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_WcfService\bin\smpte.etm.pdb
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_WcfService\bin\w3.xmldsig.pdb
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_WcfService\bin\smpte.dcmltypes.pdb
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_WcfService\obj\Debug\ResolveAssemblyReference.cache
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_WcfService\obj\Debug\flm_WcfService.dll
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_WcfService\obj\Debug\flm_WcfService.pdb
