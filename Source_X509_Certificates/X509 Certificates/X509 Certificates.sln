@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X509Certificate_ClassLibrary", "X509Certificate_ClassLibrary\X509Certificate_ClassLibrary.csproj", "{7CCE3EDA-D181-4E3C-A6AA-27E4628E947E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X509Certificate_ClassLibrary_TestProject", "X509Certificate_ClassLibrary_TestProject\X509Certificate_ClassLibrary_TestProject.csproj", "{957D00F2-514E-4025-8F10-664A7F53C818}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{297AFF10-98AF-4ADA-8ED6-F4EE19438290}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		X509 Certificates.vsmdi = X509 Certificates.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = X509 Certificates.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CCE3EDA-D181-4E3C-A6AA-27E4628E947E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCE3EDA-D181-4E3C-A6AA-27E4628E947E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCE3EDA-D181-4E3C-A6AA-27E4628E947E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCE3EDA-D181-4E3C-A6AA-27E4628E947E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{957D00F2-514E-4025-8F10-664A7F53C818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{957D00F2-514E-4025-8F10-664A7F53C818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{957D00F2-514E-4025-8F10-664A7F53C818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{957D00F2-514E-4025-8F10-664A7F53C818}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

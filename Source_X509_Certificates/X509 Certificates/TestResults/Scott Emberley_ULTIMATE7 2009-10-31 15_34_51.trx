@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a610dca0-0573-4b29-aa86-5d785f30734d" name="Scott Emberley@ULTIMATE7 2009-10-31 15:34:51" runUser="Ultimate7\Scott Emberley" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="0a6f6399-05f3-4f82-9495-46a57684b15d">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Source_Testing\X509 Certificates\TestResults\Scott Emberley_ULTIMATE7 2009-10-31 15_34_51">
+      <DeploymentItem filename="C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary\bin\Debug\X509Certificate_ClassLibrary.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-10-31T15:34:51.3144531-05:00" queuing="2009-10-31T15:34:52.1738281-05:00" start="2009-10-31T15:34:52.2988281-05:00" finish="2009-10-31T15:34:52.7988281-05:00" />
+  <TestDefinitions>
+    <UnitTest name="GetCertificateTest" storage="c:\source_testing\x509 certificates\x509certificate_classlibrary_testproject\bin\debug\x509certificate_classlibrary_testproject.dll" id="17b71b7c-968b-e58a-2a6f-772a45494c6a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="X509Certificate_ClassLibrary.dll" />
+      </DeploymentItems>
+      <Execution id="ea8595d1-c13d-4f28-a82f-f15da9668dd6" />
+      <TestMethod codeBase="C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary_TestProject\bin\Debug\X509Certificate_ClassLibrary_TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="X509Certificate_ClassLibrary_TestProject.X509CertificateClassLibraryTest, X509Certificate_ClassLibrary_TestProject" name="GetCertificateTest" />
+    </UnitTest>
+    <UnitTest name="BuildCertificateTest" storage="c:\source_testing\x509 certificates\x509certificate_classlibrary_testproject\bin\debug\x509certificate_classlibrary_testproject.dll" id="7c05a038-594b-d1bd-5d82-b4df92b177ba">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="X509Certificate_ClassLibrary.dll" />
+      </DeploymentItems>
+      <Execution id="1827afef-6ba6-4259-9975-16b67d2b6e2c" />
+      <TestMethod codeBase="C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary_TestProject\bin\Debug\X509Certificate_ClassLibrary_TestProject.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="X509Certificate_ClassLibrary_TestProject.X509CertificateClassLibraryTest, X509Certificate_ClassLibrary_TestProject" name="BuildCertificateTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="17b71b7c-968b-e58a-2a6f-772a45494c6a" executionId="ea8595d1-c13d-4f28-a82f-f15da9668dd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c05a038-594b-d1bd-5d82-b4df92b177ba" executionId="1827afef-6ba6-4259-9975-16b67d2b6e2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ea8595d1-c13d-4f28-a82f-f15da9668dd6" testId="17b71b7c-968b-e58a-2a6f-772a45494c6a" testName="GetCertificateTest" computerName="ULTIMATE7" duration="00:00:00.0605677" startTime="2009-10-31T15:34:52.3300781-05:00" endTime="2009-10-31T15:34:52.7050781-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>
+Certificate Data: ******************************************************************
+
+Basic Certificate Information
+	 Format: X509
+	 Version: 3
+	 Hash String: E87149E3BE0856912857CAB225250987D7A48AE8
+	 Issuer Name: CN=ETM Test Certificate
+	 Issuer Name OID: 
+	 Subject Name: CN=ETM Test Certificate
+	 Serial Number: 990B25F50DC7E2B548BE75AFED579448
+	 Thumb Print: E87149E3BE0856912857CAB225250987D7A48AE8
+	 Friendly Name: 
+	 Signature Algorithm: md5RSA
+	 Signature Key Exchange Algorithm: RSA-PKCS1-KeyEx
+	 Key Algorithm Parameters: 0500
+	 Not Valid Before: 12/31/2008 11:00:00 PM
+	 Not Valid After: 12/31/2019 11:00:00 PM
+	 Can Be Verified: False
+	 Is Archived: False
+
+X509 Name Elements
+	 X509 Simple Name: ETM Test Certificate
+	 X509 DNS From Alternative Name: 
+	 X509 DNS Name: ETM Test Certificate
+	 X509 Email Name: 
+	 X509 UPN Name: 
+	 X509 URL Name: 
+
+X509 Name Elements for Issuer
+	 X509 Simple Name: ETM Test Certificate
+	 X509 DNS From Alternative Name: 
+	 X509 DNS Name: ETM Test Certificate
+	 X509 Email Name: 
+	 X509 UPN Name: 
+	 X509 URL Name: 
+
+Keys
+	 Private Key: &lt;RSAKeyValue&gt;&lt;Modulus&gt;kMUObst+mLVprKFX9mK6m/K0/6Wii8i2mgo0dnnyIZavUyRPBrhUjke6fc6BgQTHEuOSpfmLkql7E4onr0W92L2zuNIyGMczI5tv+IYYH6a+WSTdVW1P9g6/w480R9ng3oN0x6BSkr564qKz0iVS4upB3ZPN6P84GQaepzkZ3Vs=&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;
+	 Public Key: &lt;RSAKeyValue&gt;&lt;Modulus&gt;kMUObst+mLVprKFX9mK6m/K0/6Wii8i2mgo0dnnyIZavUyRPBrhUjke6fc6BgQTHEuOSpfmLkql7E4onr0W92L2zuNIyGMczI5tv+IYYH6a+WSTdVW1P9g6/w480R9ng3oN0x6BSkr564qKz0iVS4upB3ZPN6P84GQaepzkZ3Vs=&lt;/Modulus&gt;&lt;Exponent&gt;AQAB&lt;/Exponent&gt;&lt;/RSAKeyValue&gt;
+
+Raw Cert
+	 3082021730820180A0030201020210990B25F50DC7E2B548BE75AFED579448300D06092A864886F70D0101040500301F311D301B0603550403131445544D2054657374204365727469666963617465301E170D3039303130313035303030305A170D3230303130313035303030305A301F311D301B0603550403131445544D205465737420436572746966696361746530819F300D06092A864886F70D010101050003818D003081890281810090C50E6ECB7E98B569ACA157F662BA9BF2B4FFA5A28BC8B69A0A347679F22196AF53244F06B8548E47BA7DCE818104C712E392A5F98B92A97B138A27AF45BDD8BDB3B8D23218C733239B6FF886181FA6BE5924DD556D4FF60EBFC38F3447D9E0DE8374C7A05292BE7AE2A2B3D22552E2EA41DD93CDE8FF3819069EA73919DD5B0203010001A354305230500603551D010449304780109BED238CDE509CBA6A0C297F53F6C2A6A121301F311D301B0603550403131445544D20546573742043657274696669636174658210990B25F50DC7E2B548BE75AFED579448300D06092A864886F70D010104050003818100020199F6DB2827AD2D143A171BE10887A93258CFEDB626666109E02034A29AF5D84F45112102DFC73435964E21EABD45F885270F00859FC073790DF4766216844238710EA8BC50EB1F6616D969312069F6C5D27E48F9DD2D16C1FA967129DE8CB7DA735A08340B31100D4E8EBF811B546935FC7DBAAEAC8576CE120231C120D2
+
+************************************************************************************
+
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1827afef-6ba6-4259-9975-16b67d2b6e2c" testId="7c05a038-594b-d1bd-5d82-b4df92b177ba" testName="BuildCertificateTest" computerName="ULTIMATE7" duration="00:00:00.0319298" startTime="2009-10-31T15:34:52.7050781-05:00" endTime="2009-10-31T15:34:52.7363281-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>
+Certificate Data: ******************************************************************
+
+Basic Certificate Information
+	 Format: X509
+	 Version: 3
+	 Hash String: C3CBFCC36FE7D19C745FFE1F9D53463F58AB179C
+	 Issuer Name: dnQualifier="sdc0+h0GHgU7FAaPqc1qrfFbG3s=", O=DC.CA.Sony.Com, OU=PRO, CN=.Sony.DCIssuerCA.v1
+	 Issuer Name OID: 
+	 Subject Name: dnQualifier="kisxy0eGHhPby56GaJ4VIc8mWHE=", O=DC.CA.Sony.Com, OU=PRO, CN=SM.Sony.SSP-27_COMPL.452ZK8C3_0026
+	 Serial Number: 53745AF3903BD97F
+	 Thumb Print: C3CBFCC36FE7D19C745FFE1F9D53463F58AB179C
+	 Friendly Name: 
+	 Signature Algorithm: sha256RSA
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method X509Certificate_ClassLibrary_TestProject.X509CertificateClassLibraryTest.BuildCertificateTest threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at X509Certificate_ClassLibrary_TestProject.X509CertificateClassLibraryTest.OutputCertificate(X509Certificate2 x509Certificate) in C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary_TestProject\X509CertificateClassLibraryTest.cs:line 172
+   at X509Certificate_ClassLibrary_TestProject.X509CertificateClassLibraryTest.BuildCertificateTest() in C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary_TestProject\X509CertificateClassLibraryTest.cs:line 230
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
