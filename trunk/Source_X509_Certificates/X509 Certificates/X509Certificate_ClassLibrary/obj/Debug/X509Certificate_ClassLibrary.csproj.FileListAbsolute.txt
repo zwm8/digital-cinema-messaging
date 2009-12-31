@@ -1,0 +1,5 @@
+C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary\bin\Debug\X509Certificate_ClassLibrary.dll
+C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary\bin\Debug\X509Certificate_ClassLibrary.pdb
+C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary\obj\Debug\X509Certificate_ClassLibrary.dll
+C:\Source_Testing\X509 Certificates\X509Certificate_ClassLibrary\obj\Debug\X509Certificate_ClassLibrary.pdb
