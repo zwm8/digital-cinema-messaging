@@ -12,6 +12,8 @@
     <AssemblyName>smpte.dcmltypes</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>www.smpte.org.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -56,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="dcmlTypes.xsd" />
+    <None Include="www.smpte.org.snk" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Generate dcmlTypes Source.txt" />
