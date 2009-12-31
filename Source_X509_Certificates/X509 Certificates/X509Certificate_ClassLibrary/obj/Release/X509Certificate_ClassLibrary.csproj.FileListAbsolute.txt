@@ -1,0 +1,5 @@
+E:\digital-cinema-messaging\Source_X509_Certificates\X509 Certificates\X509Certificate_ClassLibrary\bin\Release\X509Certificate_ClassLibrary.dll
+E:\digital-cinema-messaging\Source_X509_Certificates\X509 Certificates\X509Certificate_ClassLibrary\bin\Release\X509Certificate_ClassLibrary.pdb
+E:\digital-cinema-messaging\Source_X509_Certificates\X509 Certificates\X509Certificate_ClassLibrary\obj\Release\ResolveAssemblyReference.cache
+E:\digital-cinema-messaging\Source_X509_Certificates\X509 Certificates\X509Certificate_ClassLibrary\obj\Release\X509Certificate_ClassLibrary.dll
+E:\digital-cinema-messaging\Source_X509_Certificates\X509 Certificates\X509Certificate_ClassLibrary\obj\Release\X509Certificate_ClassLibrary.pdb
