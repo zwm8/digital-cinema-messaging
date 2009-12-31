@@ -38,3 +38,11 @@ E:\Source_SMPTE\www.smpte.org\etm_ConsoleApplication\bin\Debug\smpte.etm.pdb
 E:\Source_SMPTE\www.smpte.org\etm_ConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
 E:\Source_SMPTE\www.smpte.org\etm_ConsoleApplication\obj\Debug\etm_ConsoleApplication.exe
 E:\Source_SMPTE\www.smpte.org\etm_ConsoleApplication\obj\Debug\etm_ConsoleApplication.pdb
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\etm_ConsoleApplication\bin\Debug\etm_ConsoleApplication.exe.config
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\etm_ConsoleApplication\bin\Debug\etm_ConsoleApplication.exe
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\etm_ConsoleApplication\bin\Debug\etm_ConsoleApplication.pdb
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\etm_ConsoleApplication\bin\Debug\smpte.etm.dll
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\etm_ConsoleApplication\bin\Debug\smpte.etm.pdb
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\etm_ConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\etm_ConsoleApplication\obj\Debug\etm_ConsoleApplication.exe
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\etm_ConsoleApplication\obj\Debug\etm_ConsoleApplication.pdb

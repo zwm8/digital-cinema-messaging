@@ -16,3 +16,12 @@ C:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\bin\Debug
 C:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\bin\Debug\dcip.FlmNonCriticalExtension.pdb
 C:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\bin\Debug\smpte.dcmltypes.dll
 C:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\bin\Debug\smpte.dcmltypes.pdb
+E:\digital-cinema-messaging\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\obj\Debug\FlmNonCriticalExtension_ConsoleApplication.exe
+E:\digital-cinema-messaging\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\obj\Debug\FlmNonCriticalExtension_ConsoleApplication.pdb
+E:\digital-cinema-messaging\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\bin\Debug\FlmNonCriticalExtension_ConsoleApplication.exe
+E:\digital-cinema-messaging\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\bin\Debug\FlmNonCriticalExtension_ConsoleApplication.pdb
+E:\digital-cinema-messaging\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\bin\Debug\dcip.FlmNonCriticalExtension.dll
+E:\digital-cinema-messaging\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\bin\Debug\smpte.dcmltypes.dll
+E:\digital-cinema-messaging\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\bin\Debug\dcip.FlmNonCriticalExtension.pdb
+E:\digital-cinema-messaging\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\bin\Debug\smpte.dcmltypes.pdb
+E:\digital-cinema-messaging\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\obj\Debug\ResolveAssemblyReference.cache

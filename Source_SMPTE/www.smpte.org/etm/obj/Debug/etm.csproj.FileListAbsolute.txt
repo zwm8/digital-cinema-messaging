@@ -23,3 +23,8 @@ E:\Source_SMPTE\www.smpte.org\etm\bin\Debug\smpte.etm.pdb
 E:\Source_SMPTE\www.smpte.org\etm\obj\Debug\ResolveAssemblyReference.cache
 E:\Source_SMPTE\www.smpte.org\etm\obj\Debug\smpte.etm.dll
 E:\Source_SMPTE\www.smpte.org\etm\obj\Debug\smpte.etm.pdb
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\etm\bin\Debug\smpte.etm.dll
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\etm\bin\Debug\smpte.etm.pdb
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\etm\obj\Debug\ResolveAssemblyReference.cache
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\etm\obj\Debug\smpte.etm.dll
+E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\etm\obj\Debug\smpte.etm.pdb

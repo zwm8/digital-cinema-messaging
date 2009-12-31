@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCIP.FLM", "DCIP.FLM\DCIP.F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DCIP.FLM.ConsoleTestApplication", "DCIP.FLM.ConsoleTestApplication\DCIP.FLM.ConsoleTestApplication.csproj", "{94C31447-BFD5-42B4-9C1D-8F7556E624FB}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DCIP.FLM.Release", "DCIP.FLM.Release\DCIP.FLM.Release.vdproj", "{23B61323-F8EE-479F-95EA-8F48415CA54E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DCIP.FLM.Debug", "DCIP.FLM.Debug\DCIP.FLM.Debug.vdproj", "{C86B783B-6780-4B6F-B76A-ADE1614480CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{94C31447-BFD5-42B4-9C1D-8F7556E624FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94C31447-BFD5-42B4-9C1D-8F7556E624FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94C31447-BFD5-42B4-9C1D-8F7556E624FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23B61323-F8EE-479F-95EA-8F48415CA54E}.Debug|Any CPU.ActiveCfg = Debug
+		{23B61323-F8EE-479F-95EA-8F48415CA54E}.Debug|Any CPU.Build.0 = Debug
+		{23B61323-F8EE-479F-95EA-8F48415CA54E}.Release|Any CPU.ActiveCfg = Release
+		{23B61323-F8EE-479F-95EA-8F48415CA54E}.Release|Any CPU.Build.0 = Release
+		{C86B783B-6780-4B6F-B76A-ADE1614480CE}.Debug|Any CPU.ActiveCfg = Debug
+		{C86B783B-6780-4B6F-B76A-ADE1614480CE}.Debug|Any CPU.Build.0 = Debug
+		{C86B783B-6780-4B6F-B76A-ADE1614480CE}.Release|Any CPU.ActiveCfg = Release
+		{C86B783B-6780-4B6F-B76A-ADE1614480CE}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
