@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlmNonCriticalExtension", "FlmNonCriticalExtension\FlmNonCriticalExtension.csproj", "{9C659CE4-05C8-4D5F-82A9-65B71FAC9924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlmNonCriticalExtension_ConsoleApplication", "FlmNonCriticalExtension_ConsoleApplication\FlmNonCriticalExtension_ConsoleApplication.csproj", "{EBD7D036-37D6-4315-89DA-E96A1AB135B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C659CE4-05C8-4D5F-82A9-65B71FAC9924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C659CE4-05C8-4D5F-82A9-65B71FAC9924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C659CE4-05C8-4D5F-82A9-65B71FAC9924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C659CE4-05C8-4D5F-82A9-65B71FAC9924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD7D036-37D6-4315-89DA-E96A1AB135B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD7D036-37D6-4315-89DA-E96A1AB135B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD7D036-37D6-4315-89DA-E96A1AB135B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD7D036-37D6-4315-89DA-E96A1AB135B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

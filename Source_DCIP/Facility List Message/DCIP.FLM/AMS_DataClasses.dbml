@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="AMS.2009.12.23" Class="AMS_DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=SEMBERLEY;Initial Catalog=AMS.2009.12.23;Persist Security Info=True;User ID=sa" SettingsObjectName="DCIP.FLM.Properties.Settings" SettingsPropertyName="AMS_2009_12_23ConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.flm_GetFacilitySecureEquipment" Method="flm_GetFacilitySecureEquipment">
+    <Parameter Name="Site_Id" Parameter="site_Id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="flm_GetFacilitySecureEquipmentResult">
+      <Column Name="Site_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Location_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Location_Type_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Location_Type_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Auditorium_Code" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Equipment_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="Manufacturer" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Manufacturer_UniqueIdentifier" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Model" Type="System.String" DbType="VarChar(32)" CanBeNull="true" />
+      <Column Name="Serial_Number" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UniqueIdentifier" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Cert_String" Type="System.String" DbType="VarChar(8000)" CanBeNull="true" />
+      <Column Name="FLM_DeviceType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Attribute_Value" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="Equipment_Attribute_Datatype" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Equipment_Attribute_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Core_Attribute_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.flm_GetNonCriticalAuditoriumInfo" Method="flm_GetNonCriticalAuditoriumInfo">
+    <Parameter Name="Site_Id" Parameter="site_Id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="flm_GetNonCriticalAuditoriumInfoResult">
+      <Column Name="Site_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Auditorium_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Auditorium_3D" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Auditorium_Code" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Acceptance_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Silver_Screen" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Type_Description" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="Date_Standard_Conversion" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Date_3D_Conversion" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Auditorium_IMAX" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Conversion" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.flm_GetFacilityDeviceList" Method="flm_GetFacilityDeviceList">
+    <Parameter Name="Site_Id" Parameter="site_Id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="flm_GetFacilityDeviceListResult">
+      <Column Name="Site_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Acceptance_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Location_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Location_Type_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Location_Type_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Auditorium_Code" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Equipment_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="Manufacturer" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Manufacturer_UniqueIdentifier" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Model" Type="System.String" DbType="VarChar(32)" CanBeNull="true" />
+      <Column Name="Serial_Number" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cert_String" Type="System.String" DbType="VarChar(8000)" CanBeNull="true" />
+      <Column Name="FLM_DeviceType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Attribute_Value" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="Equipment_Attribute_Datatype" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Equipment_Attribute_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Core_Attribute_Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Installed_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Decommission_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.flm_GetFacilityInfo" Method="flm_GetFacilityInfo">
+    <Parameter Name="Site_Id" Parameter="site_Id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="flm_GetFacilityInfoResult">
+      <Column Name="Exhibitor_Name" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="URI_Mapping" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Site_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Site_Code" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Site_Name" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Alternate_Identifier" Type="System.String" DbType="VarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="Authoritative_Source_Name" Type="System.String" DbType="VarChar(128) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.flm_GetNonCriticalFacilityInfo" Method="flm_GetNonCriticalFacilityInfo">
+    <Parameter Name="Site_Id" Parameter="site_Id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="flm_GetNonCriticalFacilityInfoResult">
+      <Column Name="Exhibitor_Name" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Street_1" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Street_2" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Street_3" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Zip_Code" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="Nation" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Site_Name" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Site_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TotalScreenCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Alternate_Identifier" Type="System.String" DbType="VarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="Authoritative_Source_Name" Type="System.String" DbType="VarChar(128) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

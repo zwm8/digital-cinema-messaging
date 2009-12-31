@@ -1,0 +1,5 @@
+﻿xsd "flm_Non_critical 8 0 0 7.xsd" dcmlTypes.xsd xmldsig-core-schema.xsd /c /order /n:www.dcipllc.com.flm_ext
+
+Once built remove the elements that are not FLM specific (i.e., http://www.smpte-ra.org/433/2006/dcmlTypes and http://www.w3.org/2000/09/xmldsig#)
+
+rename to FlmNonCriticalExtension.cs

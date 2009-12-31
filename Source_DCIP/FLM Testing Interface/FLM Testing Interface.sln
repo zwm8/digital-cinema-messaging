@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLM.DCIP.TestInterface", "FLM.DCIP.TestInterface\FLM.DCIP.TestInterface.csproj", "{B74138DC-2E8E-4BF2-BA1F-EF18069C730C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLM.DCIP.TestInterface.ConsoleApplication", "FLM.DCIP.TestInterface.ConsoleApplication\FLM.DCIP.TestInterface.ConsoleApplication.csproj", "{8617AD54-BD3D-4DA4-AD6B-1625E2A1189B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B74138DC-2E8E-4BF2-BA1F-EF18069C730C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74138DC-2E8E-4BF2-BA1F-EF18069C730C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74138DC-2E8E-4BF2-BA1F-EF18069C730C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74138DC-2E8E-4BF2-BA1F-EF18069C730C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8617AD54-BD3D-4DA4-AD6B-1625E2A1189B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8617AD54-BD3D-4DA4-AD6B-1625E2A1189B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8617AD54-BD3D-4DA4-AD6B-1625E2A1189B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8617AD54-BD3D-4DA4-AD6B-1625E2A1189B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

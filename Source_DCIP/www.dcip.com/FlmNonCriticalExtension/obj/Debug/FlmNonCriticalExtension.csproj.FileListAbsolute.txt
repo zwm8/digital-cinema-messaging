@@ -1,0 +1,14 @@
+E:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\obj\Debug\ResolveAssemblyReference.cache
+E:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\bin\Debug\dcip.FlmNonCriticalExtension.dll
+E:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\bin\Debug\dcip.FlmNonCriticalExtension.pdb
+E:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\obj\Debug\dcip.FlmNonCriticalExtension.dll
+E:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\obj\Debug\dcip.FlmNonCriticalExtension.pdb
+E:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\bin\Debug\smpte.dcmltypes.dll
+E:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\bin\Debug\smpte.dcmltypes.pdb
+C:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\bin\Debug\dcip.FlmNonCriticalExtension.dll
+C:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\bin\Debug\dcip.FlmNonCriticalExtension.pdb
+C:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\obj\Debug\ResolveAssemblyReference.cache
+C:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\obj\Debug\dcip.FlmNonCriticalExtension.dll
+C:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\obj\Debug\dcip.FlmNonCriticalExtension.pdb
+C:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\bin\Debug\smpte.dcmltypes.dll
+C:\Source_DCIP\www.dcip.com\FlmNonCriticalExtension\bin\Debug\smpte.dcmltypes.pdb

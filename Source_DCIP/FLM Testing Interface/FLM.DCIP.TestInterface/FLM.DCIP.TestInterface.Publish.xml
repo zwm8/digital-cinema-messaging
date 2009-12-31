@@ -1,0 +1,21 @@
+<publishData>
+  <publishTarget publishUrl="C:\inetpub\wwwroot\webservice\FlmTestInterface\">
+    <file relUrl="bin/w3.xmldsig.dll" publishTime="09/16/2009 10:55:02" />
+    <file relUrl="bin/smpte.etm.dll" publishTime="09/16/2009 11:28:50" />
+    <file relUrl="bin/smpte.dcmltypes.dll" publishTime="09/16/2009 11:28:49" />
+    <file relUrl="bin/FLM.DCIP.TestInterface.dll" publishTime="12/21/2009 19:29:25" />
+    <file relUrl="bin/smpte.dcmltypes.pdb" publishTime="09/16/2009 11:28:49" />
+    <file relUrl="bin/FLM.DCIP.TestInterface.pdb" publishTime="12/21/2009 19:29:25" />
+    <file relUrl="FlmService.svc" publishTime="12/21/2009 14:38:25" />
+    <file relUrl="bin/X509Certificate_ClassLibrary.dll" publishTime="11/03/2009 10:53:23" />
+    <file relUrl="bin/smpte.flm.dll" publishTime="09/16/2009 11:28:49" />
+    <file relUrl="bin/smpte.flm.pdb" publishTime="09/16/2009 11:28:49" />
+    <file relUrl="schema/SVCUTIL Commands.txt" publishTime="12/21/2009 13:21:53" />
+    <file relUrl="bin/smpte.etm.pdb" publishTime="09/16/2009 11:28:50" />
+    <file relUrl="Web.config" publishTime="12/21/2009 18:31:16" />
+    <file relUrl="bin/w3.xmldsig.pdb" publishTime="09/16/2009 10:55:02" />
+    <file relUrl="bin/dcip.FlmNonCriticalExtension.dll" publishTime="09/16/2009 11:31:34" />
+    <file relUrl="bin/dcip.FlmNonCriticalExtension.pdb" publishTime="09/16/2009 11:31:34" />
+    <file relUrl="bin/X509Certificate_ClassLibrary.pdb" publishTime="11/03/2009 10:53:23" />
+  </publishTarget>
+</publishData>

@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="FLM.DCIP.TestInterface.FacilityListMessage" CodeBehind="FlmService.svc.cs" %>

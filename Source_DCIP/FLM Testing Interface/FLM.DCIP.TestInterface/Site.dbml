@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="AMS.12.21.2009" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SEMBERLEY;Initial Catalog=AMS.12.21.2009;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="AMS_12_21_2009ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Site" Member="Sites">
+    <Type Name="Site">
+      <Column Name="Site_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Chain_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Exhibitor_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Status_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DMA_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Facility_Type_Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Dynamics_Contract_Reference" Type="System.String" DbType="VarChar(32)" CanBeNull="true" />
+      <Column Name="Open_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Acceptance_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Closed_Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Site_Code" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Site_Name" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Street_1" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Street_2" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Street_3" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="Zip_Code" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="County" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Nation" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Longitude" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Latitude" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="Site_Email_Address" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="Site_Abbreviation" Type="System.String" DbType="VarChar(16)" CanBeNull="true" />
+      <Column Name="Manager_Name" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="Distributed_Core" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Discount_Site" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Secure_Storage_Room" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Booth_Elevater" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Loading_Dock" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Labor_Restriction" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Delivery_Restriction" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Record_Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Record_Created_By" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Record_Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Record_Updated_By" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Record_Deprecated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Record_Deprecated_By" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Exhibitor_Site" Member="Exhibitor" ThisKey="Exhibitor_Id" OtherKey="Exhibitor_Id" Type="Exhibitor" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Exhibitor" Member="Exhibitors">
+    <Type Name="Exhibitor">
+      <Column Name="Exhibitor_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Exhibitor_Name" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Exhibitor_Abbreviation" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="URI_Mapping" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Record_Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Record_Created_By" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Record_Updated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Record_Updated_By" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Record_Deprecated" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Record_Deprecated_By" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Exhibitor_Site" Member="Sites" ThisKey="Exhibitor_Id" OtherKey="Exhibitor_Id" Type="Site" />
+    </Type>
+  </Table>
+</Database>
