@@ -1,0 +1,5 @@
+E:\digital-cinema-messaging\Source_W3\www.w3.org\xmldsig\bin\Release\w3.xmldsig.dll
+E:\digital-cinema-messaging\Source_W3\www.w3.org\xmldsig\bin\Release\w3.xmldsig.pdb
+E:\digital-cinema-messaging\Source_W3\www.w3.org\xmldsig\obj\Release\ResolveAssemblyReference.cache
+E:\digital-cinema-messaging\Source_W3\www.w3.org\xmldsig\obj\Release\w3.xmldsig.dll
+E:\digital-cinema-messaging\Source_W3\www.w3.org\xmldsig\obj\Release\w3.xmldsig.pdb
