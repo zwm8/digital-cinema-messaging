@@ -12,6 +12,8 @@
     <AssemblyName>smpte.flm</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>www.smpte.org.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,9 +46,9 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="w3.xmldsig, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="w3.xmldsig, Version=1.0.0.1, Culture=neutral, PublicKeyToken=2cba297f444393bf, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Windows\system\w3.xmldsig.dll</HintPath>
+      <HintPath>..\..\..\Source_W3\www.w3.org\xmldsig\bin\Debug\w3.xmldsig.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -57,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="FacilityListMessage.xsd" />
+    <None Include="www.smpte.org.snk" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\dcmltypes\dcmltypes.csproj">

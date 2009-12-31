@@ -44,3 +44,5 @@ E:\Source_SMPTE\www.smpte.org\flm_WcfService\obj\Debug\flm_WcfService.dll
 E:\Source_SMPTE\www.smpte.org\flm_WcfService\obj\Debug\flm_WcfService.pdb
 E:\Source_SMPTE\www.smpte.org\flm_WcfService\bin\w3.xmldsig.dll
 E:\Source_SMPTE\www.smpte.org\flm_WcfService\bin\w3.xmldsig.pdb
+C:\Source_SMPTE\www.smpte.org\flm_WcfService\bin\w3.xmldsig.dll
+C:\Source_SMPTE\www.smpte.org\flm_WcfService\bin\w3.xmldsig.pdb

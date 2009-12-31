@@ -48,3 +48,5 @@ E:\Source_SMPTE\www.smpte.org\flm_ConsoleApplication\bin\Debug\smpte.dcmltypes.p
 E:\Source_SMPTE\www.smpte.org\flm_ConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
 E:\Source_SMPTE\www.smpte.org\flm_ConsoleApplication\bin\Debug\w3.xmldsig.dll
 E:\Source_SMPTE\www.smpte.org\flm_ConsoleApplication\bin\Debug\w3.xmldsig.pdb
+C:\Source_SMPTE\www.smpte.org\flm_ConsoleApplication\bin\Debug\w3.xmldsig.dll
+C:\Source_SMPTE\www.smpte.org\flm_ConsoleApplication\bin\Debug\w3.xmldsig.pdb
