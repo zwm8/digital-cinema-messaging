@@ -847,10 +847,6 @@ namespace DCIP.FLM
             deviceDescription.DeviceIdentifier = new deviceIdentifierPolyType();
             deviceDescription.DeviceIdentifier.idtype = new deviceIdentifierPolyTypeIdtype();
             deviceDescription.DeviceIdentifier.idtype = deviceIdentifierPolyTypeIdtype.DeviceUID;
-            //if (null == currentDevice.UniqueIdentifier)
-            //    deviceDescription.DeviceIdentifier.Value = "urn:uid:" + Guid.Empty;
-            //else
-            //    deviceDescription.DeviceIdentifier.Value = "urn:uid:" + currentDevice.UniqueIdentifier.ToString();
             deviceDescription.DeviceIdentifier.Value = "urn:uid:" + Guid.Empty;
             deviceDescription.DeviceTypeID = new deviceTypeType();
             deviceDescription.DeviceTypeID.scope = "http://www.dcipllc.com/schemas/430-7/2009/FLM#deviceTypes";
@@ -872,10 +868,17 @@ namespace DCIP.FLM
             int indexVersion = 0;
             foreach (versionInfoListType versionInfo in versionInformation)
             {
-                deviceDescription.VersionInfo.Items[indexVersion] = versionInfo.Items[0];
-                deviceDescription.VersionInfo.ItemsElementName[indexVersion] = versionInfo.ItemsElementName[0];
-                deviceDescription.VersionInfo.Items[indexVersion + 1] = versionInfo.Items[1];
-                deviceDescription.VersionInfo.ItemsElementName[indexVersion + 1] = versionInfo.ItemsElementName[1];
+                if (versionInfo.Items[indexVersion + 1].CompareTo("DeviceIdentifier") == 0)
+                {
+                    deviceDescription.DeviceIdentifier.Value = "urn:uid:" + versionInfo.Items[indexVersion];
+                }
+                else
+                {
+                    deviceDescription.VersionInfo.Items[indexVersion] = versionInfo.Items[0];
+                    deviceDescription.VersionInfo.ItemsElementName[indexVersion] = versionInfo.ItemsElementName[0];
+                    deviceDescription.VersionInfo.Items[indexVersion + 1] = versionInfo.Items[1];
+                    deviceDescription.VersionInfo.ItemsElementName[indexVersion + 1] = versionInfo.ItemsElementName[1];
+                }
                 indexVersion += 2;
             }
 
@@ -916,6 +919,7 @@ namespace DCIP.FLM
 
                     ipAddresses.Add(ipAddress);
                 }
+
             }
 
             return ValidVersionInfo;
