@@ -1,0 +1,1 @@
+﻿svcutil CheckConnectionReply.xsd /dconly /importXmlTypes /serializer:XmlSerializer /namespace:*,FLM.DCIP.TestInterface /out:CheckConnectionReply.cs

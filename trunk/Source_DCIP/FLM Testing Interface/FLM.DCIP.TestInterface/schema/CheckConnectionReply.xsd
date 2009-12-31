@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CheckConnectionReply"
+    targetNamespace="http://tempuri.org/CheckConnectionReply.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/CheckConnectionReply.xsd"
+    xmlns:mstns="http://tempuri.org/CheckConnectionReply.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  >
+  <xs:element name="CheckConnectionReply" type="CheckConnectionReplyType"/>
+  <xs:complexType name="CheckConnectionReplyType">
+    <xs:sequence>
+      <xs:element name="Originator" type="xs:anyURI"/>
+      <xs:element name="SystemName" type="xs:string"/>
+      <xs:element name="FeedIdentifier" type="UUIDType"/>
+      <xs:element name="DateTimeCreated" type="xs:dateTime"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="UUIDType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[\da-fA-F]{8}(-[\da-fA-F]{4}){3}-[\da-fA-F]{12}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

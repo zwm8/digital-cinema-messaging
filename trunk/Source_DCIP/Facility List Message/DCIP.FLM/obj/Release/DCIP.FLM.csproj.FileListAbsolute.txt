@@ -1,0 +1,17 @@
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\DCIP.FLM.dll
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\DCIP.FLM.pdb
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\dcip.FlmNonCriticalExtension.dll
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\smpte.dcmltypes.dll
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\smpte.etm.dll
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\smpte.flm.dll
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\w3.xmldsig.dll
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\X509Certificate_ClassLibrary.dll
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\X509Certificate_ClassLibrary.pdb
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\dcip.FlmNonCriticalExtension.pdb
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\smpte.etm.pdb
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\smpte.flm.pdb
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\smpte.dcmltypes.pdb
+E:\Source_DCIP\Facility List Message\DCIP.FLM\bin\Release\w3.xmldsig.pdb
+E:\Source_DCIP\Facility List Message\DCIP.FLM\obj\Release\ResolveAssemblyReference.cache
+E:\Source_DCIP\Facility List Message\DCIP.FLM\obj\Release\DCIP.FLM.dll
+E:\Source_DCIP\Facility List Message\DCIP.FLM\obj\Release\DCIP.FLM.pdb
