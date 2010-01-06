@@ -289,9 +289,10 @@ namespace DCIP.FLM
                     flmNonCriticalExtension.NonCriticalAuditoriumInfo.Auditorium[auditoriumIndex].Digital3DSystem = new Digital3DSystemType();
                     //flmNonCriticalExtension.NonCriticalAuditoriumInfo.Auditorium[auditoriumIndex].Digital3DSystem.IsActive = auditorium.Acceptance_Date;
                     flmNonCriticalExtension.NonCriticalAuditoriumInfo.Auditorium[auditoriumIndex].Digital3DSystem.Digital3DConfiguration = auditorium.Type_Description;
-                    flmNonCriticalExtension.NonCriticalAuditoriumInfo.Auditorium[auditoriumIndex].Digital3DSystem.InstallDate = auditorium.Date_3D_Conversion.Value;
+                    if(auditorium.Date_3D_Conversion.HasValue)
+                        flmNonCriticalExtension.NonCriticalAuditoriumInfo.Auditorium[auditoriumIndex].Digital3DSystem.InstallDate = auditorium.Date_3D_Conversion.Value;
                     //flmNonCriticalExtension.NonCriticalAuditoriumInfo.Auditorium[auditoriumIndex].Digital3DSystem.DecommissionDate = auditorium.
-                    if(auditorium.Silver_Screen.Value)
+                    if(auditorium.Silver_Screen.HasValue && auditorium.Silver_Screen.Value)
                         flmNonCriticalExtension.NonCriticalAuditoriumInfo.Auditorium[auditoriumIndex].Digital3DSystem.ScreenColor = ScreenColorType.SILVER;
                     else
                         flmNonCriticalExtension.NonCriticalAuditoriumInfo.Auditorium[auditoriumIndex].Digital3DSystem.ScreenColor = ScreenColorType.WHITE;
@@ -824,7 +825,9 @@ namespace DCIP.FLM
                 }
             }
 
-            deviceType.InstallDate = (System.DateTime)currentDevice.Installed_Date;
+            if(currentDevice.Installed_Date.HasValue)
+                deviceType.InstallDate = currentDevice.Installed_Date.Value;
+
             if (null == currentDevice.Decommission_Date)
             {
                 if (null == currentDevice.Acceptance_Date)
@@ -834,7 +837,9 @@ namespace DCIP.FLM
             }
             else
             {
-                deviceType.DecommissionDate = (System.DateTime)currentDevice.Decommission_Date;
+                if(currentDevice.Decommission_Date.HasValue)
+                    deviceType.DecommissionDate = currentDevice.Decommission_Date.Value;
+
                 deviceType.IsActive = false;
             }
 
@@ -868,7 +873,7 @@ namespace DCIP.FLM
             int indexVersion = 0;
             foreach (versionInfoListType versionInfo in versionInformation)
             {
-                if (versionInfo.Items[indexVersion + 1].CompareTo("DeviceIdentifier") == 0)
+                if (versionInfo.Items[0].CompareTo("DeviceIdentifier") == 0)
                 {
                     deviceDescription.DeviceIdentifier.Value = "urn:uid:" + versionInfo.Items[indexVersion];
                 }

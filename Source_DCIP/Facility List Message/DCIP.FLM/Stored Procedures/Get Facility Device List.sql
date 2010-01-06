@@ -1,4 +1,4 @@
-USE [AMS.2009.12.23]
+USE [AMS]
 GO
 
 /****** Object:  StoredProcedure [dbo].[flm_GetFacilityDeviceList]    Script Date: 12/28/2009 12:08:26 ******/
@@ -6,7 +6,7 @@ IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[flm_G
 DROP PROCEDURE [dbo].[flm_GetFacilityDeviceList]
 GO
 
-USE [AMS.2009.12.23]
+USE [AMS]
 GO
 
 /****** Object:  StoredProcedure [dbo].[flm_GetFacilityDeviceList]    Script Date: 12/28/2009 12:08:26 ******/
