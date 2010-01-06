@@ -1,15 +1,15 @@
 USE [AMS]
 GO
 
-/****** Object:  StoredProcedure [dbo].[flm_GetFacilityInfo]    Script Date: 12/28/2009 13:53:52 ******/
+/****** Object:  StoredProcedure [dbo].[flm_GetFacilityInfo]    Script Date: 01/06/2010 14:32:49 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[flm_GetFacilityInfo]') AND type in (N'P', N'PC'))
 DROP PROCEDURE [dbo].[flm_GetFacilityInfo]
 GO
 
-USE [AMS.2009.12.23]
+USE [AMS]
 GO
 
-/****** Object:  StoredProcedure [dbo].[flm_GetFacilityInfo]    Script Date: 12/28/2009 13:53:52 ******/
+/****** Object:  StoredProcedure [dbo].[flm_GetFacilityInfo]    Script Date: 01/06/2010 14:32:49 ******/
 SET ANSI_NULLS ON
 GO
 

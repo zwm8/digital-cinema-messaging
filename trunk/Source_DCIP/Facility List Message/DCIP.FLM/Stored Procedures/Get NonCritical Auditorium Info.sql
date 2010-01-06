@@ -1,7 +1,7 @@
 USE [AMS]
 GO
 
-/****** Object:  StoredProcedure [dbo].[flm_GetNonCriticalAuditoriumInfo]    Script Date: 01/05/2010 19:11:46 ******/
+/****** Object:  StoredProcedure [dbo].[flm_GetNonCriticalAuditoriumInfo]    Script Date: 01/06/2010 14:35:34 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[flm_GetNonCriticalAuditoriumInfo]') AND type in (N'P', N'PC'))
 DROP PROCEDURE [dbo].[flm_GetNonCriticalAuditoriumInfo]
 GO
@@ -9,12 +9,21 @@ GO
 USE [AMS]
 GO
 
-/****** Object:  StoredProcedure [dbo].[flm_GetNonCriticalAuditoriumInfo]    Script Date: 01/05/2010 19:11:46 ******/
+/****** Object:  StoredProcedure [dbo].[flm_GetNonCriticalAuditoriumInfo]    Script Date: 01/06/2010 14:35:34 ******/
 SET ANSI_NULLS ON
 GO
 
 SET QUOTED_IDENTIFIER ON
 GO
+
+
+
+
+
+
+
+
+
 
 
 CREATE PROCEDURE [dbo].[flm_GetNonCriticalAuditoriumInfo]
