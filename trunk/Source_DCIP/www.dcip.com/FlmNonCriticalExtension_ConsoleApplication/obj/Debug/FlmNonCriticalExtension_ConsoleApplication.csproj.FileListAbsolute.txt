@@ -25,3 +25,5 @@ E:\digital-cinema-messaging\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_Con
 E:\digital-cinema-messaging\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\bin\Debug\dcip.FlmNonCriticalExtension.pdb
 E:\digital-cinema-messaging\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\bin\Debug\smpte.dcmltypes.pdb
 E:\digital-cinema-messaging\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\digital-cinema-messaging\trunk\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\obj\Debug\FlmNonCriticalExtension_ConsoleApplication.exe
+C:\digital-cinema-messaging\trunk\Source_DCIP\www.dcip.com\FlmNonCriticalExtension_ConsoleApplication\obj\Debug\FlmNonCriticalExtension_ConsoleApplication.pdb

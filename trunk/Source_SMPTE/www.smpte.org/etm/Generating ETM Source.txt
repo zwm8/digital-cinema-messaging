@@ -1,5 +1,6 @@
 ﻿The SVCUTIL does not create correct all elements!
 
-svcutil ExtraTheatreMessage.xsd /dconly /importXmlTypes  /out:ExtraTheatreMessage_svcutil.cs
+xsd /classes /order ETM.xsd www.w3.org.2000.09.xmldsig.xsd www.w3.org.2001.04.xmlenc.xsd
 
-xsd ExtraTheatreMessage.xsd /c /order /n:www.smpte.org.etm
+Remove sections that have definitions for xmldsig and xmlenc
+

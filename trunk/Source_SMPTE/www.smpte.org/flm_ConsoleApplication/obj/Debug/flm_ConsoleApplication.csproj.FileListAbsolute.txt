@@ -64,3 +64,6 @@ E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_ConsoleApplication\bi
 E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_ConsoleApplication\bin\Debug\smpte.dcmltypes.pdb
 E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_ConsoleApplication\bin\Debug\w3.xmldsig.pdb
 E:\digital-cinema-messaging\Source_SMPTE\www.smpte.org\flm_ConsoleApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\digital-cinema-messaging\trunk\Source_SMPTE\www.smpte.org\flm_ConsoleApplication\bin\Debug\flm_ConsoleApplication.exe.config
+C:\digital-cinema-messaging\trunk\Source_SMPTE\www.smpte.org\flm_ConsoleApplication\obj\Debug\flm_ConsoleApplication.exe
+C:\digital-cinema-messaging\trunk\Source_SMPTE\www.smpte.org\flm_ConsoleApplication\obj\Debug\flm_ConsoleApplication.pdb
