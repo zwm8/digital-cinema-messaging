@@ -54,3 +54,5 @@ E:\digital-cinema-messaging\Source_DCIP\Facility List Message\DCIP.FLM.ConsoleTe
 E:\digital-cinema-messaging\Source_DCIP\Facility List Message\DCIP.FLM.ConsoleTestApplication\bin\Debug\smpte.dcmltypes.pdb
 E:\digital-cinema-messaging\Source_DCIP\Facility List Message\DCIP.FLM.ConsoleTestApplication\bin\Debug\DCIP.FLM.pdb
 E:\digital-cinema-messaging\Source_DCIP\Facility List Message\DCIP.FLM.ConsoleTestApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\Source\digital-cinema-messaging\trunk\Source_DCIP\Facility List Message\DCIP.FLM.ConsoleTestApplication\obj\Debug\DCIP.FLM.ConsoleTestApplication.exe
+C:\Source\digital-cinema-messaging\trunk\Source_DCIP\Facility List Message\DCIP.FLM.ConsoleTestApplication\obj\Debug\DCIP.FLM.ConsoleTestApplication.pdb
