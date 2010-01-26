@@ -504,6 +504,7 @@ namespace DCIP.FLM
                 if ((null != currentDevice) && (currentDevice.Equipment_Id == secureDevice.Equipment_Id)) // It still the same device (get next version element)
                 {
                     AddInfoType(versionInformation, secureDevice);
+                    currentDevice = secureDevice;
                     continue;
                 }
                 else // the next device in the list

@@ -22,8 +22,8 @@ namespace FLM.ConsoleTestApplication
             int siteId = 473; //Regal
             //int siteId = 271; //AMC
 
-            string connectionString = @"Data Source=DCADB05\EI;Initial Catalog=AMS;Integrated Security=True";
-            //string connectionString = "Data Source=SEMBERLEY;Initial Catalog=AMS.TSTDB01;Persist Security Info=True;User ID=sa;Password=";
+            //string connectionString = @"Data Source=DCADB05\EI;Initial Catalog=AMS;Integrated Security=True";
+            string connectionString = "Data Source=SEMBERLEY;Initial Catalog=AMS.TSTDB01;Persist Security Info=True;User ID=sa;Password=Iw2wfm2d";
             //string connectionString = "Data Source=SEMBERLEY;Initial Catalog=AMS.12.23.2009;Data Source=SEMBERLEY;Initial Catalog=AMS.2009.12.23;Persist Security Info=True;User ID=sa;Password=";
             //string connectionString = "Data Source=WEBSERVER;Initial Catalog=AMS.2009.12.23;Integrated Security=True";
            
